@@ -8,3 +8,9 @@
   padding: 0;
   overflow-x: hidden;
 }
+
+.bounce {
+  transition: all;
+  transition-duration: 500ms;
+  transition-timing-function: cubic-bezier(0,2.4,1,1.07);
+}
