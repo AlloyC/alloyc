@@ -9,6 +9,17 @@
   overflow-x: hidden;
 }
 
+button,
+a {
+  outline: none;
+}
+
+button:focus,
+a:focus {
+  animation: lowFade 0.6s ease-out alternate 0ms infinite;
+  font-weight: 600;
+}
+
 .bounce {
   transition: all;
   transition-duration: 500ms;
@@ -27,7 +38,7 @@
 
 .animated-loading:hover div .chevron-2 {
   opacity: 1;
-  animation: fadeIn 0.8s ease-in-out .9s infinite;
+  animation: fadeIn 0.8s ease-in-out 0.9s infinite;
 }
 
 .animated-loading:hover div .chevron-3 {
@@ -41,5 +52,16 @@
   }
   to {
     opacity: 1;
+  }
+}
+
+@keyframes lowFade {
+  from {
+    opacity: 0.3;
+    transform: translateY(-3px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0px);
   }
 }

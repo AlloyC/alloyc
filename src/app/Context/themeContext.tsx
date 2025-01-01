@@ -6,6 +6,7 @@ import React, {
   useEffect,
   useState,
 } from "react";
+import { useTheme as useNextTheme } from "next-themes";
 
 type Theme = "light" | "dark";
 
@@ -24,20 +25,32 @@ function ThemeContext({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
-  const [mode, setMode] = useState<Theme>("light");
+  const { theme, setTheme, systemTheme } = useNextTheme();
+  const [mounted, setMounted] = useState<boolean>(false);
 
   const toggleMode = () => {
-    if (mode === "light") document.cookie = "theme = dark;secure";
-    else document.cookie = "theme = light; secure";
-    setMode((prev) => (prev === "light" ? "dark" : "light"));
+    if (theme === "light") {
+      document.cookie = "theme = dark;secure";
+      setTheme("dark");
+    } else {
+      document.cookie = "theme = light; secure";
+      setTheme("light");
+    }
+    // setMode((prev) => (prev === "light" ? "dark" : "light"));
   };
 
   useEffect(() => {
-    const savedMode = document.cookie.split(":")[1] as Theme;
-    setMode(savedMode || "light");
+    const savedMode = document.cookie.split("=")[1] as Theme;
+    console.log(savedMode);
+
+    setTheme(savedMode || "system");
+    setMounted(true);
   }, []);
+
+  if (!mounted) return null;
+
   return (
-    <ThemeMode.Provider value={mode}>
+    <ThemeMode.Provider value={theme === "system" ? systemTheme as Theme : theme as Theme}>
       <ToggleTheme.Provider value={toggleMode}>
         <div className="h-max">{children}</div>
       </ToggleTheme.Provider>

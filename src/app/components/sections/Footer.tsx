@@ -10,7 +10,7 @@ import Link from "next/link";
 function Footer() {
   const year = new Date().getFullYear();
   return (
-    <footer className="bg-footer-gradient min-h-60 w-full px-10 pt-5 pb-3 ">
+    <footer className="bg-footer-gradient dark:bg-dark-footer-gradient min-h-60 w-full px-10 pt-5 pb-3 ">
       <div className="flex flex-col md:flex-row w-full mt-7 text-light-gray md:items-baseline">
         <div className="max-w-96 mx-auto">
           <Image src={Logo} className="w-12 mb-6" alt="_alloy" />

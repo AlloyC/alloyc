@@ -5,6 +5,7 @@ import ThemeContext from "./Context/themeContext";
 import MenuContext from "./Context/MenuContext";
 import NavBar from "./components/sections/NavBar";
 import Footer from "./components/sections/Footer";
+import { ThemeProvider } from "next-themes";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -28,17 +29,25 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="en" suppressHydrationWarning>
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased w-screen h-screen flex justify-center bg-main bg-cover bg-center`}
+        className={`${geistSans.variable} ${geistMono.variable} dark:bg-dark-theme antialiased w-screen h-screen flex justify-center`}
       >
-        <ThemeContext>
-          <MenuContext>
-            <NavBar />
-            <main className="mt-28 h-max">{children}</main>
-            <Footer/>
-          </MenuContext>
-        </ThemeContext>
+        <ThemeProvider
+          enableSystem={true}
+          defaultTheme="system"
+          attribute="class"
+        >
+          <ThemeContext>
+            <MenuContext>
+              <NavBar />
+              <main className={"mt-28 h-max bg-main dark:bg-dark-theme dark:bg-none bg-cover bg-center"}>
+                {children}
+              </main>
+              <Footer />
+            </MenuContext>
+          </ThemeContext>
+        </ThemeProvider>
       </body>
     </html>
   );
