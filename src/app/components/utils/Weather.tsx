@@ -4,28 +4,27 @@ import WeatherIcon from "../../../../public/assets/icons/weather.svg";
 import Degree from "../../../../public/assets/icons/degree-dot.svg";
 
 function Weather() {
-  const [degree, setDegree] = useState('loading...')
+  const [degree, setDegree] = useState("loading...");
   const temperature = async () => {
-    const weatherKey = 'd9812fa67f7b4711b8f112708250101'
+    const weatherKey = "d9812fa67f7b4711b8f112708250101";
     try {
-      const getLatidudeLongitude = await fetch(
-        "http://ip-api.com/json/?fields=lat,lon"
-      );
-      if (!getLatidudeLongitude.ok) {
+      const getIP = await fetch("https://jsonip.com/");
+      if (!getIP.ok) {
         throw new Error("error fetching latitude and longitude");
       }
-      const latLonResponse = await getLatidudeLongitude.json();
+      const IPAddress = await getIP.json();
+
       const getWeather = await fetch(
-        `https://api.weatherapi.com/v1/current.json?q=${latLonResponse.lat},${latLonResponse.lon}&key=${weatherKey}`
+        `https://api.weatherapi.com/v1/current.json?q=${IPAddress.ip.trim()}&key=${weatherKey}`
       );
       if (!getWeather) {
         throw new Error("error fetching weather");
       }
       const weatherResponse = await getWeather.json();
       console.log(weatherResponse.current);
-      
+
       const temperature = weatherResponse.current["temp_c"];
-      setDegree(temperature)
+      setDegree(temperature);
     } catch (error) {
       if (error instanceof Error) {
         console.log(error.message);
@@ -36,8 +35,8 @@ function Weather() {
   };
 
   useEffect(() => {
-temperature()
-  }, [])
+    temperature();
+  }, []);
 
   const options: Intl.DateTimeFormatOptions = {
     weekday: "long",
