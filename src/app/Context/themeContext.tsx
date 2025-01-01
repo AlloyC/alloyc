@@ -1,5 +1,11 @@
 "use client";
-import React, { createContext, MouseEventHandler, useContext, useEffect, useState } from "react";
+import React, {
+  createContext,
+  MouseEventHandler,
+  useContext,
+  useEffect,
+  useState,
+} from "react";
 
 type Theme = "light" | "dark";
 
@@ -21,9 +27,8 @@ function ThemeContext({
   const [mode, setMode] = useState<Theme>("light");
 
   const toggleMode = () => {
-    mode === "light"
-      ? (document.cookie = "theme = dark;secure")
-      : (document.cookie = "theme = light; secure");
+    if (mode === "light") document.cookie = "theme = dark;secure";
+    else document.cookie = "theme = light; secure";
     setMode((prev) => (prev === "light" ? "dark" : "light"));
   };
 
@@ -33,7 +38,9 @@ function ThemeContext({
   }, []);
   return (
     <ThemeMode.Provider value={mode}>
-      <ToggleTheme.Provider value={toggleMode}>{children}</ToggleTheme.Provider>
+      <ToggleTheme.Provider value={toggleMode}>
+        <div className="h-max">{children}</div>
+      </ToggleTheme.Provider>
     </ThemeMode.Provider>
   );
 }

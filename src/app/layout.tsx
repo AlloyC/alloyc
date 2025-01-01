@@ -4,6 +4,7 @@ import "./globals.css";
 import ThemeContext from "./Context/themeContext";
 import MenuContext from "./Context/MenuContext";
 import NavBar from "./components/sections/NavBar";
+import Footer from "./components/sections/Footer";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -29,12 +30,13 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased w-screen h-screen flex justify-center`}
+        className={`${geistSans.variable} ${geistMono.variable} antialiased w-screen h-screen flex justify-center bg-main bg-cover bg-center`}
       >
         <ThemeContext>
           <MenuContext>
             <NavBar />
-            <main className="mt-28">{children}</main>
+            <main className="mt-28 h-max">{children}</main>
+            <Footer/>
           </MenuContext>
         </ThemeContext>
       </body>

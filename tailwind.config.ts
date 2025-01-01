@@ -14,6 +14,9 @@ export default {
         "light-gray-gradient": "linear-gradient(180deg, #C8D4D60C, #4F545418)",
         "dark-footer-gradient":
           "linear-gradient(90deg, #322F2F 29%, #171A2F 35%, #02040F 100%)",
+        "gradient-blue": "linear-gradient(90deg, #1621F5 0%, #0B0F58 100%)",
+        "footer-gradient":
+          "linear-gradient(180deg, #9B9DAA 0%, #868898 15%, #2C2D32 100%)",
       },
       backgroundColor: {
         "light-theme": "#FFFFFF",
@@ -23,12 +26,9 @@ export default {
         "dark-purplish-blue": "#030528",
         "light-blue": "#1A25F0",
         "dark-blue": "#111AB9",
-        "gradient-blue": "linear-gradient(90deg, #1621F5 0%, #0B0F58 100%)",
-        "dark-gray": "#1119AE0C",
+        "dark-gray": "#1119AE",
         gray: "#EAE3E3",
         "light-gray": "#D8D8E2",
-        "footer-gradient":
-          "linear-gradient(90deg, #EFF0F2 0%, #868898 35%, #2C2D32 100%)",
       },
     },
   },

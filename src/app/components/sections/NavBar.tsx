@@ -16,8 +16,8 @@ function NavBar() {
   const toggleMode = useToggleTheme();
   const { dropDown, toggleDropDown } = useMenu();
   return (
-    <div className="fixed left-2 right-2 flex justify-center py-5">
-      <div className=" h-20 w-full max-w-screen-xl bg-light-gray-gradient top-3 border border-light-gray rounded-lg p-3 py-5 md:p-5 flex items-center justify-between shadow-lg backdrop-blur-md">
+    <div className="fixed left-2 right-2 flex justify-center py-5 z-10">
+      <div className=" h-20 w-full max-w-screen-xl bg-light-gray-gradient top-3 border border-light-gray rounded-lg p-3 py-5 md:p-5 flex items-center justify-between shadow-lg backdrop-blur-md text-dark-purplish-blue">
         <Link className="focus:animate-pulse h-9 px-2 outline-none" href={"/"}>
           <Image src={Logo} alt="_alloy" className="h-7" />
         </Link>
@@ -82,10 +82,10 @@ function NavBar() {
       </div>
       <div
         className={`fixed md:hidden top-24 right-2 px-2 py-5 bounce transition-opacity duration-1000  ${
-          dropDown ? "opacity-100 translate-y-0" : "opacity-0 -translate-y-4"
+          dropDown ? "opacity-100 translate-y-0 visible" : "invisible opacity-0 -translate-y-4"
         }`}
       >
-        <ul className="px-6 py-3 rounded-md bg-light-gray-gradient border border-light-gray shadow-lg space-y-2">
+        <ul className="px-6 py-3 rounded-md bg-light-gray-gradient border backdrop-blur-2xl border-light-gray shadow-lg space-y-2 text-dark-purplish-blue">
           <li className="hover:font-medium">
             <Link href={"/blog"} className="flex gap-2 items-center">
               <Image src={BlogIcon} alt="blog" className="w-6" />

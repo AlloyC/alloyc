@@ -12,5 +12,34 @@
 .bounce {
   transition: all;
   transition-duration: 500ms;
-  transition-timing-function: cubic-bezier(0,2.4,1,1.07);
+  transition-timing-function: cubic-bezier(0, 2.4, 1, 1.07);
+}
+
+.chevron {
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.animated-loading:hover div .chevron-1 {
+  opacity: 1;
+  animation: fadeIn 0.8s ease-in-out 0ms infinite;
+}
+
+.animated-loading:hover div .chevron-2 {
+  opacity: 1;
+  animation: fadeIn 0.8s ease-in-out .9s infinite;
+}
+
+.animated-loading:hover div .chevron-3 {
+  opacity: 1;
+  animation: fadeIn 0.8s ease-in-out 1.8s infinite;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }
