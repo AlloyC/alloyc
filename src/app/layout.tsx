@@ -29,7 +29,11 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" suppressHydrationWarning>
+    <html
+      lang="en"
+      suppressHydrationWarning
+      className="scroll-smooth"
+    >
       <body
         className={`${geistSans.variable} ${geistMono.variable} dark:bg-dark-theme antialiased w-screen h-screen flex justify-center`}
       >
@@ -41,7 +45,11 @@ export default function RootLayout({
           <ThemeContext>
             <MenuContext>
               <NavBar />
-              <main className={"mt-28 h-max bg-main dark:bg-dark-theme dark:bg-none bg-cover bg-center"}>
+              <main
+                className={
+                  "mt-28 h-max bg-main dark:bg-dark-theme dark:bg-none bg-cover bg-center"
+                }
+              >
                 {children}
               </main>
               <Footer />

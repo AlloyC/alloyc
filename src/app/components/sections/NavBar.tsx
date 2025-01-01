@@ -39,16 +39,17 @@ function NavBar() {
             </Link>
             <Link
               className="focus:animate-bounce h-9 px-2 outline-none"
-              href={"/blog"}
+              href={"/contacts"}
             >
-              <li className="font-medium hover:scale-105 py-1">Contact</li>
+              <li className="font-medium hover:scale-105 py-1">Contacts</li>
             </Link>
-            <Link
+            <a
+              download={"Okeoghene_John_Resumé"}
               className="focus:animate-bounce h-9 px-2 outline-none"
-              href={"/blog"}
+              href={"/assets/pdf/Okeoghene-John-web-developer-resume.pdf"}
             >
               <li className="font-medium py-1 hover:scale-105">Resumé</li>
-            </Link>
+            </a>
           </ul>
           <button className="mr-5 relative" onClick={toggleMode}>
             <Image
@@ -107,24 +108,28 @@ function NavBar() {
             </Link>
           </li>
           <li className="hover:font-medium">
-            <Link href={"/blog"} className="flex gap-2 items-center">
+            <Link href={"/contacts"} className="flex gap-2 items-center">
               <Image
                 src={mode === "light" ? ContactIcon : ContactIconLight}
                 alt="contacts"
                 className="w-6"
               />
-              Contact
+              Contacts
             </Link>
           </li>
           <li className="hover:font-medium">
-            <Link href={"/"} className="flex gap-2 items-center">
+            <a
+              href={"/assets/pdf/Okeoghene-John-web-developer-resume.pdf"}
+              download={"Okeoghene_John_Resumé"}
+              className="flex gap-2 items-center"
+            >
               <Image
                 src={mode === "light" ? ResumeIcon : ResumeIconLight}
                 alt="resume"
                 className="h-6 mx-1"
               />
               Resumé
-            </Link>
+            </a>
           </li>
           <li className="hover:font-medium">
             <button

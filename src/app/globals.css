@@ -9,6 +9,12 @@
   overflow-x: hidden;
 }
 
+body,
+html {
+  scroll-behavior: smooth !important;
+  scroll-padding-top: 122px !important;
+}
+
 button,
 a {
   outline: none;
@@ -16,7 +22,8 @@ a {
 
 button:focus,
 a:focus {
-  animation: lowFade 0.6s ease-out alternate 0ms infinite;
+  animation: lowFade 0.6s ease-out alternate 0ms;
+  animation-iteration-count: 8;
   font-weight: 600;
 }
 

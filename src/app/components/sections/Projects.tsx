@@ -5,7 +5,7 @@ import Fupps from "../../../../public/assets/images/fupps.svg";
 
 function Projects() {
   return (
-    <div className="space-y-5 flex flex-col items-center">
+    <section id="projects" className="space-y-5 flex flex-col items-center">
       <SectionHeader text="Projects I Built" />
       <div className="flex flex-col md:flex-row gap-5 lg:gap-8">
         <ProjectCard
@@ -27,7 +27,7 @@ function Projects() {
           url="/fupps"
         />
       </div>
-    </div>
+    </section>
   );
 }
 

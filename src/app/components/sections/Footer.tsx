@@ -10,7 +10,7 @@ import Link from "next/link";
 function Footer() {
   const year = new Date().getFullYear();
   return (
-    <footer className="bg-footer-gradient dark:bg-dark-footer-gradient min-h-60 w-full px-10 pt-5 pb-3 ">
+    <footer className="bg-footer-gradient dark:bg-dark-footer-gradient min-h-60 max-w-screen-xl w-screen px-10 pt-5 pb-3 ">
       <div className="flex flex-col md:flex-row w-full mt-7 text-light-gray md:items-baseline">
         <div className="max-w-96 mx-auto">
           <Image src={Logo} className="w-12 mb-6" alt="_alloy" />
@@ -32,27 +32,58 @@ function Footer() {
           <h5 className="font-medium">Links</h5>
           <ul className="grid grid-cols-2 max-w-80 mt-4">
             <li>
-              <Link className="hover:scale-105 hover:font-medium" href={"/"}>Home</Link>
-            </li>
-            <li>
-              <Link className="hover:scale-105 hover:font-medium" href={"#about-me"}>About me</Link>
-            </li>
-            <li>
-              <Link className="hover:scale-105 hover:font-medium" href={"/blog"}>Blog</Link>
-            </li>
-            <li>
-              <Link className="hover:scale-105 hover:font-medium" href={"/resume"} download={true}>
-              Resumé
+              <Link className="hover:scale-105 hover:font-medium" href={"/"}>
+                Home
               </Link>
             </li>
             <li>
-              <Link className="hover:scale-105 hover:font-medium" href={"#projects"}>Projects</Link>
+              <Link
+                className="hover:scale-105 hover:font-medium"
+                href={"#about-me"}
+              >
+                About me
+              </Link>
             </li>
             <li>
-              <Link className="hover:scale-105 hover:font-medium" href={"#skills"}>Skills</Link>
+              <Link
+                className="hover:scale-105 hover:font-medium"
+                href={"/blog"}
+              >
+                Blog
+              </Link>
             </li>
             <li>
-              <Link className="hover:scale-105 hover:font-medium" href={"/contact"}>Contact</Link>
+              <a
+                className="hover:scale-105 hover:font-medium"
+                href={"/assets/pdf/Okeoghene-John-web-developer-resume.pdf"}
+                download={"Okeoghe_John_Resumé.pdf"}
+              >
+                Resumé
+              </a>
+            </li>
+            <li>
+              <Link
+                className="hover:scale-105 hover:font-medium"
+                href={"#projects"}
+              >
+                Projects
+              </Link>
+            </li>
+            <li>
+              <Link
+                className="hover:scale-105 hover:font-medium"
+                href={"#skills"}
+              >
+                Skills
+              </Link>
+            </li>
+            <li>
+              <Link
+                className="hover:scale-105 hover:font-medium"
+                href={"/contacts"}
+              >
+                Contact
+              </Link>
             </li>
           </ul>
         </div>
@@ -60,16 +91,16 @@ function Footer() {
       <div className="hidden md:flex flex-col md:flex-row w-full mt-7 text-light-gray md:items-baseline">
         <div className="max-w-96 py-2 mx-auto w-full inline-flex gap-2 items-center">
           <div className="w-28 border-t border-light-gray opacity-65"></div>
-          <Link href={""}>
+          <Link href={"https://wa.me/qr/YFOKYWR5R7PCN1"}>
             <Image src={Whatsapp} className="w-4" alt="whatsaspp" />
           </Link>
-          <Link href={""}>
+          <Link href={"https://instagram.com/_alloyc"}>
             <Image src={Instagram} className="w-4" alt="Instagram" />
           </Link>
-          <Link href={""}>
+          <Link href={"https://linkedIn.com/in/okeoghene-john"}>
             <Image src={LinkedIn} className="w-4" alt="linkedIn" />
           </Link>
-          <Link href={""}>
+          <Link href={"https://github.com/AlloyC"}>
             <Image src={GitHub} className="w-4" alt="github" />
           </Link>
         </div>
@@ -77,16 +108,16 @@ function Footer() {
       </div>
       <div className="max-w-96 md:hidden py-2 mt-5 mx-auto w-full inline-flex gap-2 items-center">
         <div className="w-28 border-t border-light-gray opacity-65"></div>
-        <Link href={""}>
+        <Link href={"https://wa.me/qr/YFOKYWR5R7PCN1"}>
           <Image src={Whatsapp} className="w-4" alt="whatsaspp" />
         </Link>
-        <Link href={""}>
+        <Link href={"https://instagram.com/_alloyc"}>
           <Image src={Instagram} className="w-4" alt="Instagram" />
         </Link>
-        <Link href={""}>
+        <Link href={"https://linkedIn.com/in/okeoghene-john"}>
           <Image src={LinkedIn} className="w-4" alt="linkedIn" />
         </Link>
-        <Link href={""}>
+        <Link href={"https://github.com/AlloyC"}>
           <Image src={GitHub} className="w-4" alt="github" />
         </Link>
       </div>

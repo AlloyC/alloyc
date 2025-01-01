@@ -13,7 +13,7 @@ import Skill from '../utils/Skill';
 
 function Skills() {
   return (
-      <div className='flex flex-col gap-3 items-center'>
+      <section id='skills' className='flex flex-col gap-3 items-center'>
           <SectionHeader text='My Skills' />
           <div className='-mt-12 md:mt-4 scale-50 md:scale-90 lg:scale-100 space-y-6'>
               <div className='flex gap-8'>
@@ -32,7 +32,7 @@ function Skills() {
                   <Skill skillName='CSS' source={CSS} />
               </div>
       </div>
-    </div>
+    </section>
   )
 }
 
