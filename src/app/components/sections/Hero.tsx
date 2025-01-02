@@ -1,7 +1,6 @@
 import React from "react";
 
 import { Roboto } from "next/font/google";
-import Button from "../utils/Button";
 import Link from "next/link";
 
 const roboto = Roboto({
@@ -23,16 +22,6 @@ function Hero() {
         you want to be. Let’s turn your goals into a reality.
       </p>
       <div className="mt-5 flex gap-5">
-        {/* <Button
-          btnFunction={() => console.log("clicked")}
-          solid={false}
-          text="See my works"
-        /> */}
-        {/* <Button
-          btnFunction={() => console.log("clicked")}
-          solid={true}
-          text="Contact Me"
-        /> */}
         <Link href={'#projects'} className={`border-2 border-dark-blue dark:border-light-blue-DM text-dark-blue dark:text-light-blue-DM rounded-md px-4 py-2 font-medium`}>See my works</Link>
         <Link href={'/contacts'} className={` bg-dark-blue border-2 dark:bg-light-blue-DM border-dark-blue dark:border-light-blue-DM text-white rounded-md px-4 py-2 font-medium`}>Contact Me</Link>
       </div>
