@@ -14,7 +14,7 @@ function Hero() {
     <section className={`bg-hero dark:bg-dark-hero bg-cover bg-left-bottom flex flex-col px-5 py-8 lg:px-12 lg:py-16 gap-5 w-full rounded-lg dark:text-light-gray text-dark-purplish-blue font-medium`}>
       <h1 className={`${roboto} text-2xl md:text-3xl lg:text-4xl max-w-96 lg:max-w-[480px] py-2`}>
         Hey there, I’m Oke and I am a{" "}
-        <span className="text-light-blue dark:text-light-blue-DM">front-end developer</span>
+        <span className="text-transparent bg-clip-text bg-gradient-blue dark:text-light-blue-DM">front-end developer</span>
       </h1>
       <p className="text-lg lg:text-xl max-w-96 lg:max-w-[480px] text-pretty">
         Every business has unique challenges. I craft custom, intuitive, and
