@@ -1,0 +1,61 @@
+[
+  {
+    "name": "justBuy",
+    "title": "JustBuy",
+    "description": "Connecting local Vendors to Customers",
+    "overview": "JustBuy is an e-commerce platform designed to bridge the gap between local vendors and nearby customers, making it easier to discover and access locally produced goods and services. With a focus on promoting community-based commerce, the platform ensures fast and convenient delivery while supporting local business.",
+    "links": [
+      {
+        "name": "Website",
+        "url": "https://justbuy.com"
+      },
+      {
+        "name": "GitHub",
+        "url": "alloyc.github.io/justBuy"
+      }
+    ],
+    "technologies": [
+      "Frontend: React",
+      "styling: Tailwind CSS",
+      "Backend & Database: Firebase",
+      "State Management: Context API"
+    ],
+    "features": [
+      "User Authentication",
+      "Product Search",
+      "Product Details",
+      "Order Placement",
+      "Dashboard"
+    ],
+    "challenge": [
+      "Developing JustBuy was a challenging yet rewarding journey. I started with minimal experience in tools like Figma for designing, which pushed me to quickly adapt and create intuitive page layouts. Finding a suitable backend for data management and user authentication was another hurdle, eventually solved by leveraging Firebase&apos;s robust features. During testing, I had to source dummy APIs to populate the application dynamically.",
+      "Additionally, I had limited knowledge of React&apos;s Context API at the time. I embraced the challenge by learning it on the go, using it to efficiently manage and store data locally for a seamless user experience"
+    ],
+    "solution": [
+      "To overcome these challenges, I dedicated time to learning and mastering Figma, which helped me create visually appealing and user-friendly designs. I also spent time understanding Firebase&apos;s documentation and tutorials to implement a secure and scalable backend. For the Context API, I followed official documentation and online resources to grasp its concepts and apply them effectively in the project."
+    ],
+    "Key learnings": [
+      "Breaking the project into smaller,  maagable milestones helped me stay organized and track progress.",
+      "Working with Firebase taught me how to structure and manage data efficiently in a database.",
+      "The project deepened my understanding of building user-friendly, scalable web applications using React and Tailwind CSS."
+    ],
+    "Outcome": [
+      "Although JustBuy was not released for commercial use, the feedback for testers was overwhelmingly positive. They appreciated the simplicity and speed of the platform. Presonally, this project pushed me beyound my comfort zone, enhancing both my technicak skills and problem-solving abilities."
+    ],
+    "reflection": "JustBuy remains one of my proudest achievements as it not only challenged me but also solidified my confidence in tackling real-world development problems. This project demonstrated the power of persistence and continuous learning, leaving me eager to take on more ambitious endeavors in the future.",
+    "images": [
+      {
+        "src": "justBuy1.png",
+        "alt": "JustBuy Home Page"
+      },
+      {
+        "src": "justBuy2.png",
+        "alt": "JustBuy Product Details Page"
+      },
+      {
+        "src": "justBuy3.png",
+        "alt": "JustBuy Dashboard"
+      }
+    ]
+  }
+]
