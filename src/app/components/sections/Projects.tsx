@@ -1,7 +1,7 @@
 import React from "react";
 import SectionHeader from "../utils/SectionHeader";
 import ProjectCard from "../utils/ProjectCard";
-import Fupps from "../../../../public/assets/images/fupps.svg";
+import Fupps from "../../../../public/assets/images/fupps.jpg";
 
 function Projects() {
   return (

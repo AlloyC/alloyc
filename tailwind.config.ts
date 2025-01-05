@@ -10,9 +10,9 @@ export default {
   theme: {
     extend: {
       backgroundImage: {
-        hero: "url(../../public/assets/images/hero-bg.svg)",
-        "dark-hero": "url(../../public/assets/images/hero-dark-bg.svg)",
-        main: "url(../../public/assets/images/main-bg.svg)",
+        hero: "url(../../public/assets/images/hero-bg.jpg)",
+        "dark-hero": "url(../../public/assets/images/hero-dark-bg.jpg)",
+        main: "url(../../public/assets/images/main-bg.jpg)",
         "light-gray-gradient": "linear-gradient(180deg, #C8D4D60C, #4F545418)",
         "dark-footer-gradient":
           "linear-gradient(180deg, #212644 0%, #171A2F 35%, #02040F 100%)",

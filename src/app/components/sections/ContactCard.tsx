@@ -348,7 +348,7 @@ function ContactCard() {
             </div>
             <div className="relative pt-3 -mt-3">
             <label htmlFor="Phone number">
-              <span className="absolute top-0 left-14 px-1 bg-white dark:bg-dark-theme">
+              <span className="absolute top-0 left-2 px-1 bg-white dark:bg-dark-theme">
                 Phone number
               </span>
             </label>
@@ -362,7 +362,7 @@ function ContactCard() {
                 onChange={handlePhoneNumber}
                 value={phoneNumber}
                 name="Phone number"
-                className="py-2 p-3 focus:border border-l-none outline-none dark:bg-dark-theme border-gray w-full placeholder:italic appearance-none placeholder:text-sm [&::-webkit-outer-spin-button]:appearance-none [&::-webkit-inner-spin-button]:appearance-none"
+                className="py-2 pl-1 pr-3 focus:border-b  outline-none dark:bg-dark-theme border-gray w-full placeholder:italic appearance-none placeholder:text-sm [&::-webkit-outer-spin-button]:appearance-none [&::-webkit-inner-spin-button]:appearance-none"
                 placeholder="9053778947"
               />
             </div>
@@ -386,17 +386,17 @@ function ContactCard() {
           </div>
         </div>
       </form>
-      <div className="w-80 p-5 pt-10 order-1 md:order-2 border-2 md:border-l-[1px] md:rounded-l-none rounded-lg border-gray flex flex-col gap-5 bg-light-gray text-dark-purplish-blue">
+      <div className="w-80 p-5 pt-10 order-1 md:order-2 border-2 md:border-l-[1px] md:rounded-l-none rounded-lg border-gray flex flex-col gap-5 bg-light-gray bg-opacity-30 dark:bg-opacity-55 dark:bg-slate-700 dark:text-light-gray text-dark-purplish-blue">
         <h3 className="font-medium text-lg">Other Ways to Reach Me</h3>
         <div className="">
           <div className="flex gap-2 items-center">
-            <Image src={EmailIcon} className="w-6 h-5" alt="email me" />
+            <Image src={EmailIcon} className="w-6 h-5 dark:filter dark:invert dark:opacity-70" alt="email me" />
             <span className="font-medium">Email</span>
           </div>
           <p className="text-sm">
             Prefer detailed conversations? Drop me an email at{" "}
             <a
-              className="text-dark-blue dark:text-light-blue underline italic"
+              className="text-transparent bg-gradient-blue bg-clip-text dark:text-light-blue-DM underline italic"
               href="mailto:okeoghenejohn10@gmail.com"
             >
               okeoghenejohn10@gmail.com
@@ -406,14 +406,14 @@ function ContactCard() {
         </div>
         <div>
           <div className="flex gap-2 items-center">
-            <Image src={ChatIcon} className="w-6 h-6" alt="whatsapp" />
+            <Image src={ChatIcon} className="w-6 h-6 dark:filter dark:invert dark:opacity-70" alt="whatsapp" />
             <span className="font-medium">Chat</span>
           </div>
           <p className="text-sm">
             Need an instant response? Chat with on WhatsApp at{" "}
             <Link
               href={"https://wa.me/qr/YFOKYWR5R7PCN1"}
-              className="text-dark-blue dark:text-light-blue"
+              className="text-transparent bg-gradient-blue bg-clip-text dark:text-light-blue-DM"
             >
               +2349053778947
             </Link>{" "}
@@ -422,7 +422,7 @@ function ContactCard() {
         </div>
         <div>
           <div className="flex gap-2 items-center">
-            <Image src={SocialMedia} className="w-6 h-6" alt="socials" />
+            <Image src={SocialMedia} className="w-6 h-6 dark:filter dark:invert dark:opacity-70" alt="socials" />
             <span className="font-medium">Social Media</span>
           </div>
           <p className="text-sm">
@@ -432,18 +432,18 @@ function ContactCard() {
           <div className="mt-4 space-y-1">
             <a
               href="https://linkedIn.com/in/okeoghene-john"
-              className="inline-flex gap-2 text-sm underline text-dark-blue dark:text-light-blue"
+              className="inline-flex gap-2 text-sm underline text-transparent bg-gradient-blue bg-clip-text dark:text-light-blue-DM"
             >
-              <Image src={LinkedIn} alt="linkedIn" className="filter invert" />
+              <Image src={LinkedIn} alt="linkedIn" className="filter invert opacity-80 dark:invert-0" />
               https://linkedIn.com/in/okeoghene-john
             </a>
             <a
               href="https://instagram.com/_alloyc"
-              className="inline-flex gap-2 text-sm underline text-dark-blue dark:text-light-blue"
+              className="inline-flex gap-2 text-sm underline text-transparent bg-gradient-blue bg-clip-text dark:text-light-blue-DM"
             >
               <Image
                 src={Instagram}
-                className="filter invert"
+                className="filter invert opacity-80 dark:invert-0"
                 alt="instagram"
               />
               https://instagram.com/_alloyc

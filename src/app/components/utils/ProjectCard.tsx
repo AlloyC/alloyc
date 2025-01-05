@@ -1,4 +1,4 @@
-import Image from "next/image";
+import Image, { StaticImageData } from "next/image";
 import Link from "next/link";
 import React from "react";
 import ChevronRight from "../../../../public/assets/icons/chevron-right.svg";
@@ -11,7 +11,7 @@ function ProjectCard({
   projectDescription,
   url,
 }: {
-  projectIMG: string;
+  projectIMG: StaticImageData;
   projectTitle: string;
   projectDescription: string;
   url: string;

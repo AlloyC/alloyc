@@ -52,7 +52,7 @@ function ThemeContext({
   return (
     <ThemeMode.Provider value={theme === "system" ? systemTheme as Theme : theme as Theme}>
       <ToggleTheme.Provider value={toggleMode}>
-        <div className="h-max">{children}</div>
+        <div className="h-max min-h-screen">{children}</div>
       </ToggleTheme.Provider>
     </ThemeMode.Provider>
   );
