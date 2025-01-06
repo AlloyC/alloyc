@@ -26,6 +26,7 @@ export default {
       },
       colors: {
         "dark-purplish-blue": "#030528",
+        "purplish-blue": "#3816f5",
         "light-blue": "#1A25F0",
         "dark-blue": "#111AB9",
         "sea-blue": "#16F5D0",

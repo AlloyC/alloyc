@@ -40,6 +40,7 @@ a:focus {
 
 .animated-loading:hover div .chevron-1 {
   opacity: 1;
+  /* color: #3816f5; */
   animation: fadeIn 0.8s ease-in-out 0ms infinite;
 }
 
@@ -72,3 +73,4 @@ a:focus {
     transform: translateY(0px);
   }
 }
+

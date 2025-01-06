@@ -54,13 +54,13 @@ function LearnMorePage() {
               <p className="max-w-[72ch] text-pretty">{data.overview}</p>
               <div className="mt-6 flex gap-20">
                 <Link
-                  className="underline text-dark-purplish-blue dark:text-sea-blue font-medium"
+                  className="underline text-purplish-blue dark:text-sea-blue font-medium"
                   href={data.links[0].url}
                 >
                   {data.links[0].name}
                 </Link>
                 <Link
-                  className="underline text-dark-purplish-blue dark:text-sea-blue font-medium"
+                  className="underline text-purplish-blue dark:text-sea-blue font-medium"
                   href={data.links[1].url}
                 >
                   {data.links[1].name}
@@ -76,7 +76,7 @@ function LearnMorePage() {
                       key={tech}
                       className="flex justify-start gap-3 items-center"
                     >
-                      <span className="rounded-full w-5 h-5 border-2 border-dark-purplish-blue dark:border-sea-blue"></span>
+                      <span className="rounded-full w-5 h-5 border-2 border-purplish-blue dark:border-sea-blue"></span>
                       <span>{tech}</span>
                     </li>
                   );
@@ -99,7 +99,7 @@ function LearnMorePage() {
                       key={point}
                       className="flex justify-start gap-3 items-start"
                     >
-                      <span className="rounded-full mt-1 w-5 h-5 border-2 border-dark-purplish-blue dark:border-sea-blue"></span>
+                      <span className="rounded-full mt-1 w-5 h-5 border-2 border-purplish-blue dark:border-sea-blue"></span>
                       <span className="flex-1 text-pretty">{point}</span>
                     </li>
                   );
@@ -167,13 +167,13 @@ function LearnMorePage() {
           <p className="max-w-[72ch] text-pretty">{data.overview}</p>
           <div className="mt-6 flex gap-20">
             <Link
-              className="underline text-dark-purplish-blue dark:text-sea-blue font-medium"
+              className="underline text-purplish-blue dark:text-sea-blue font-medium"
               href={data.links[0].url}
             >
               {data.links[0].name}
             </Link>
             <Link
-              className="underline text-dark-purplish-blue dark:text-sea-blue font-medium"
+              className="underline text-purplish-blue dark:text-sea-blue font-medium"
               href={data.links[1].url}
             >
               {data.links[1].name}
@@ -189,7 +189,7 @@ function LearnMorePage() {
                   key={tech}
                   className="flex justify-start gap-3 items-center"
                 >
-                  <span className="rounded-full w-5 h-5 border-2 border-dark-purplish-blue dark:border-sea-blue"></span>
+                  <span className="rounded-full w-5 h-5 border-2 border-purplish-blue dark:border-sea-blue"></span>
                   <span>{tech}</span>
                 </li>
               );
@@ -222,7 +222,7 @@ function LearnMorePage() {
                   key={point}
                   className="flex justify-start gap-3 items-start"
                 >
-                  <span className="rounded-full mt-1 w-5 h-5 border-2 border-dark-purplish-blue dark:border-sea-blue"></span>
+                  <span className="rounded-full mt-1 w-5 h-5 border-2 border-purplish-blue dark:border-sea-blue"></span>
                   <span className="flex-1 text-pretty">{point}</span>
                 </li>
               );
