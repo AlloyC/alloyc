@@ -13,6 +13,10 @@
       "url": "https://justbuy-ecommerce-webapp.vercel.app/"
     }
   ],
+  "Role": {
+    "title": "Frontend Developer",
+    "responsibilities": ["Developed the entire web page from scratch, including designing the user interface, implementing responsive layouts, and ensuring cross-browser compatibility. Collaborated with backend developers to integrate APIs and optimize performance. Conducted thorough testing and debugging to deliver a seamless user experience."]
+  },
   "technologies": [
     "Frontend: React",
     "styling: Tailwind CSS",
@@ -50,6 +54,10 @@
     {
       "src": "/assets/images/fupps.jpg",
       "alt": "JustBuy Product Details Page"
+    },
+    {
+      "src": "/assets/images/fupps.jpg",
+      "alt": "JustBuy Dashboard"
     },
     {
       "src": "/assets/images/fupps.jpg",

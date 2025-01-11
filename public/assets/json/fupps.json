@@ -1,6 +1,74 @@
 {
-  "name": "fupps",
+  "name": "Fupps",
   "title": "Fupps",
-  "subTitle": "A page for fupps",
-  "overview": "This is a page for fupps"
+  "description": "Simplifying Access to Educational Resources",
+  "overview": "Fupps is an educational resource center and blogging platform designed to streamline access to academic materials and encourage knowledge sharing. Students can download course-specific resources organized by department and level, ensuring easy access to materials without the hassle of searching through chat histories. Users can also share their knowledge through blogs, creating a collaborative learning environment.",
+  "links": [
+    {
+      "name": "View live site",
+      "url": "https://www.fuppsedu.com/"
+    }
+  ],
+  "technologies": [
+    "Frontend: Next.js, Typescript",
+    "styling: Tailwind CSS",
+    "Backend & Database: Firebase",
+    "State Management: Context API",
+    "Design: Figma"
+  ],
+  "features": [
+    "Course-Specific Resources: Organized by department and level, with uploads managed securely by department representatives using authorization codes.",
+    "Blog Platform: Users can share and interact with educational content, fostering a community of learners.",
+    "Web Accessibility: A fully responsive web application, ensuring ease of use on any device with internet access.",
+    "Order Placement",
+    "Future Development: Plans to evolve into a Progressive Web Application (PWA) for even greater convenience."
+  ],
+  "Role": {
+    "title": "Frontend Developer",
+    "responsibilities": [
+      "Developing the Courses Page, where users can browse and download materials relevant to their department and level.    ",
+      "Implementing the Login and Signup Pages, ensuring secure and user-friendly authentication flows.",
+      "Debugging across both my branch and my teammates' branches to ensure a seamless and error-free user experience.",
+      "Utilized Figma for designing user interfaces and page layouts.",
+      "Utilized Firebase for backend and database management, ensuring secure data storage and retrieval.",
+      "Implemented the blog text editor, allowing users to create and interact with educational content."
+    ]
+  },
+  "challenge": [
+    "Working on Fupps presented several technical and collaborative challenges that required creative problem-solving and adaptability. One of the most significant hurdles was managing user data to ensure that each user could only access resources and blogs relevant to their department and level. This required a deep dive into Firebase’s querying capabilities to structure and scope data appropriately. By refining my understanding of Firebase, I was able to implement secure and efficient data handling mechanisms that enhanced the overall user experience.",
+    "Another significant challenge was creating a text editor for blogging that allowed users to seamlessly include images and videos in their posts. This required integrating a rich text editor tool that supported media uploads while ensuring that the data could be effectively stored and retrieved using Firebase. Balancing functionality with simplicity was key to providing a smooth experience for users, and it was incredibly rewarding to see the feature come to life.",
+    "Additionally, adapting to new features and tools I hadn’t previously used, such as preloading pages and implementing pagination, pushed me to learn on the go. These features were crucial for improving the platform’s performance, especially when handling a large amount of educational content. Implementing them not only enriched my technical knowledge but also taught me how to optimize web applications for speed and usability.",
+    "Lastly, the collaborative nature of the project came with its own set of challenges. Debugging code across multiple branches and ensuring consistency in design and functionality required clear communication and teamwork. Additionally, working alongside another frontend developer introduced me to tools like npm packages and Next.js theming (next-themes), broadening my toolkit and improving my ability to integrate new technologies into a project. Embracing Figma for design, despite being a beginner, added another layer of growth, as I quickly learned to translate ideas into intuitive layouts and workflows."
+  ],
+  "solution": [
+    "To overcome these challenges, I dedicated time to learning and mastering Figma, which helped me create visually appealing and user-friendly designs. I also spent time understanding Firebase's documentation and tutorials to implement a secure and scalable backend. For the Context API, I followed official documentation and online resources to grasp its concepts and apply them effectively in the project."
+  ],
+  "keyLearnings": [
+    "Deepened my knowledge of Firebase, especially around handling scoped data and enhancing user-specific interactions.",
+    "Learned about preloading, pagination, and improving page performance for a better user experience.",
+    "Gained hands-on experience in collaboration and debugging in a team environment.",
+    "Expanded my technical toolkit by exploring new npm packages and themes for Next.js."
+  ],
+  "outcome": [
+    "Fupps was successfully launched, receiving positive feedback from users who praised the platform's speed, design, and interactivity, particularly the blog functionality. It felt incredibly rewarding to contribute to a solution that addresses a real problem for students and educators."
+  ],
+  "reflection": "Fupps was a milestone project in my development journey, pushing me to improve both my technical skills and collaborative abilities. It reinforced the importance of learning on the go and embracing new tools and challenges. I'm proud to have been part of this project and look forward to contributing to its future development, particularly its transition into a Progressive Web Application (PWA).",
+  "images": [
+    {
+      "src": "/assets/images/fupps.jpg",
+      "alt": "Fupps Home Page"
+    },
+    {
+      "src": "/assets/images/fupps-login.jpg",
+      "alt": "Fupps login Page"
+    },
+    {
+      "src": "/assets/images/fupps-create-blog.jpg",
+      "alt": "Fupps create blog text editor"
+    },
+    {
+      "src": "/assets/images/fupps-course-upload.jpg",
+      "alt": "Fupps upload material Page"
+    }
+  ]
 }

@@ -11,6 +11,7 @@ interface LearnMoreData {
   overview: string;
   links: { name: string; url: string }[];
   technologies: string[];
+  Role: { title: string; responsibilities: string[] };
   features: string[];
   challenge: string[];
   solution: string[];
@@ -47,26 +48,49 @@ function LearnMorePage() {
           <span className="w-7 h-0.5 rounded-full bg-black dark:bg-light-gray"></span>
           <span className="italic">{data.description}</span>
         </h2>
+        <div className="flex gap-16 mt-8">
+          <section className="">
+            <h4 className=" leading-10 text-lg font-medium">Overview:</h4>
+            <p className="max-w-[72ch] min-w-[50ch] text-pretty">
+              {data.overview}
+            </p>
+            <div className="mt-6 flex gap-20">
+              {data.links.map((link) => (
+                <Link
+                  key={link.url}
+                  className="underline text-purplish-blue dark:text-sea-blue font-medium"
+                  href={link.url}
+                >
+                  {link.name}
+                </Link>
+              ))}
+            </div>
+          </section>
+          <Image
+            src={data.images[0].src}
+            alt={data.images[0].alt}
+            className="w-full rounded-lg"
+            width={500}
+            height={300}
+          />
+        </div>
+        <section className="w-full mt-16">
+          <h3 className="text-xl font-medium mb-2">
+            Chanllenges and Solutions
+          </h3>
+          <div className="flex flex-wrap gap-x-8 gap-y-5 mb-4">
+            {data.challenge.map((paragraph) => (
+              <p
+                key={paragraph}
+                className="flex-1 min-w-[40ch] max-w-[72ch] text-pretty indent-6"
+              >
+                {paragraph}
+              </p>
+            ))}
+          </div>
+        </section>
         <div className="flex gap-16 mt-10 justify-between w-full">
           <div className="flex-1 space-y-16">
-            <section className="">
-              <h4 className=" leading-10 text-lg font-medium">Overview:</h4>
-              <p className="max-w-[72ch] text-pretty">{data.overview}</p>
-              <div className="mt-6 flex gap-20">
-                <Link
-                  className="underline text-purplish-blue dark:text-sea-blue font-medium"
-                  href={data.links[0].url}
-                >
-                  {data.links[0].name}
-                </Link>
-                <Link
-                  className="underline text-purplish-blue dark:text-sea-blue font-medium"
-                  href={data.links[1].url}
-                >
-                  {data.links[1].name}
-                </Link>
-              </div>
-            </section>
             <section className="">
               <h3 className="text-xl font-medium">Technologies Used</h3>
               <ul className="space-y-2 pl-4 pt-4">
@@ -78,6 +102,23 @@ function LearnMorePage() {
                     >
                       <span className="rounded-full w-5 h-5 border-2 border-purplish-blue dark:border-sea-blue"></span>
                       <span>{tech}</span>
+                    </li>
+                  );
+                })}
+              </ul>
+            </section>
+            <section className="">
+              <h3 className="text-xl font-medium">My Role</h3>
+              <p className="text-pretty">{data.Role.title}</p>
+              <ul className="space-y-2 pl-4 pt-4">
+                {data.Role.responsibilities.map((role) => {
+                  return (
+                    <li
+                      key={role}
+                      className="flex justify-start gap-3 items-start"
+                    >
+                      <span className="rounded-full w-3 h-4 border-2 mt-2 border-purplish-blue dark:border-sea-blue"></span>
+                      <span className="flex-1">{role}</span>
                     </li>
                   );
                 })}
@@ -109,25 +150,39 @@ function LearnMorePage() {
           </div>
           <div className="flex-1 space-y-16">
             <Image
-              src={data.images[0].src}
-              alt={data.images[0].alt}
+              src={data.images[2].src}
+              alt={data.images[2].alt}
               className="w-full rounded-lg"
               width={500}
               height={300}
             />
-            <section>
-              <h3 className="text-xl font-medium mb-2">
-                Chanllenges and Solutions
-              </h3>
-              {data.challenge.map((paragraph) => (
+            <section className="">
+              <h3 className="text-xl font-medium">Features</h3>
+              <ul className="space-y-2 pl-4 pt-4">
+                {data.features.map((paragraph) => {
+                  return (
+                    <li
+                      key={paragraph}
+                      className="flex justify-start gap-3 items-start"
+                    >
+                      <span className="rounded-full mt-1 w-3 h-4 border-2 border-purplish-blue dark:border-sea-blue"></span>
+                      <span className="flex-1">{paragraph}</span>
+                    </li>
+                  );
+                })}
+              </ul>
+            </section>
+            {/* <section>
+              <h3 className="text-xl font-medium mb-2">Features</h3>
+              {data.features.map((paragraph) => (
                 <p key={paragraph} className="mb-4">
                   {paragraph}
                 </p>
               ))}
-            </section>
+            </section> */}
             <Image
-              src={data.images[2].src}
-              alt={data.images[2].alt}
+              src={data.images[3].src}
+              alt={data.images[3].alt}
               className="w-full rounded-lg"
               width={500}
               height={300}
@@ -166,18 +221,15 @@ function LearnMorePage() {
           <h4 className=" leading-10 text-lg font-medium">Overview:</h4>
           <p className="max-w-[72ch] text-pretty">{data.overview}</p>
           <div className="mt-6 flex gap-20">
-            <Link
-              className="underline text-purplish-blue dark:text-sea-blue font-medium"
-              href={data.links[0].url}
-            >
-              {data.links[0].name}
-            </Link>
-            <Link
-              className="underline text-purplish-blue dark:text-sea-blue font-medium"
-              href={data.links[1].url}
-            >
-              {data.links[1].name}
-            </Link>
+            {data.links.map((link) => (
+              <Link
+                key={link.url}
+                className="underline text-purplish-blue dark:text-sea-blue font-medium"
+                href={link.url}
+              >
+                {data.links[0].name}
+              </Link>
+            ))}
           </div>
         </section>
         <section className="">
@@ -196,15 +248,36 @@ function LearnMorePage() {
             })}
           </ul>
         </section>
-        <section>
+        <section className="">
+              <h3 className="text-xl font-medium">Features</h3>
+              <ul className="space-y-2 pl-4 pt-4">
+                {data.features.map((paragraph) => {
+                  return (
+                    <li
+                      key={paragraph}
+                      className="flex justify-start gap-3 items-start"
+                    >
+                      <span className="rounded-full mt-1 w-3 h-4 border-2 border-purplish-blue dark:border-sea-blue"></span>
+                      <span className="flex-1">{paragraph}</span>
+                    </li>
+                  );
+                })}
+              </ul>
+            </section>
+        <section className="w-full mt-16">
           <h3 className="text-xl font-medium mb-2">
             Chanllenges and Solutions
           </h3>
-          {data.challenge.map((paragraph) => (
-            <p key={paragraph} className="mb-4">
-              {paragraph}
-            </p>
-          ))}
+          <div className="flex-col gap-y-5 mb-4">
+            {data.challenge.map((paragraph) => (
+              <p
+                key={paragraph}
+                className="flex-1 min-w-[40ch] max-w-[72ch] text-pretty indent-6"
+              >
+                {paragraph}
+              </p>
+            ))}
+          </div>
         </section>
         <Image
           src={data.images[1].src}
@@ -213,6 +286,23 @@ function LearnMorePage() {
           width={500}
           height={300}
         />
+        <section className="">
+              <h3 className="text-xl font-medium">My Role</h3>
+              <p className="text-pretty">{data.Role.title}</p>
+              <ul className="space-y-2 pl-4 pt-4">
+                {data.Role.responsibilities.map((role) => {
+                  return (
+                    <li
+                      key={role}
+                      className="flex justify-start gap-3 items-start"
+                    >
+                      <span className="rounded-full w-3 h-4 border-2 mt-2 border-purplish-blue dark:border-sea-blue"></span>
+                      <span className="flex-1">{role}</span>
+                    </li>
+                  );
+                })}
+              </ul>
+            </section>
         <section>
           <h3 className="text-xl font-medium">Key learnings:</h3>
           <ul className="space-y-2 pl-4 pt-4">
