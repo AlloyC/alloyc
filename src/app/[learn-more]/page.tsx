@@ -3,11 +3,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import React, { useEffect, useState } from "react";
-import ChevronRight from "../../../public/assets/icons/chevron-right.svg";
-import ChevronRightLight from "../../../public/assets/icons/chevron-right-light.svg";
-import { useTheme } from "@/app/Context/themeContext";
 import ProjectCard from "../components/utils/ProjectCard";
-
 import JustBuy from "../../../public/assets/images/just-buy.jpg";
 import Fupps from "../../../public/assets/images/fupps.jpg";
 import SectionHeader from "../components/utils/SectionHeader";
@@ -33,17 +29,13 @@ function LearnMorePage() {
   const url = usePathname();
   const [mounted, setMounted] = useState(false);
   const [data, setData] = useState<null | LearnMoreData>();
-  const [nextTab, setNextTab] = useState("");
   const [currentTab, setCurrentTab] = useState("");
-  const mode = useTheme();
 
   useEffect(() => {
     (async () => {
       if (url === "/just-buy") {
-        setNextTab("/fupps");
         setCurrentTab("/just-buy");
       } else if (url === "/fupps") {
-        setNextTab("/just-buy");
         setCurrentTab("/fupps");
       }
       try {
