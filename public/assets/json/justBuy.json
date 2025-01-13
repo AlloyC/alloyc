@@ -48,19 +48,19 @@
   "reflection": "JustBuy remains one of my proudest achievements as it not only challenged me but also solidified my confidence in tackling real-world development problems. This project demonstrated the power of persistence and continuous learning, leaving me eager to take on more ambitious endeavors in the future.",
   "images": [
     {
-      "src": "/assets/images/fupps.jpg",
+      "src": "/assets/images/just-buy.jpg",
       "alt": "JustBuy Home Page"
     },
     {
-      "src": "/assets/images/fupps.jpg",
+      "src": "/assets/images/just-buy-login.jpg",
+      "alt": "JustBuy login"
+    },
+    {
+      "src": "/assets/images/just-buy-product.jpg",
       "alt": "JustBuy Product Details Page"
     },
     {
-      "src": "/assets/images/fupps.jpg",
-      "alt": "JustBuy Dashboard"
-    },
-    {
-      "src": "/assets/images/fupps.jpg",
+      "src": "/assets/images/just-buy-dashboard.jpg",
       "alt": "JustBuy Dashboard"
     }
   ]

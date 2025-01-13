@@ -2,6 +2,7 @@ import React from "react";
 import SectionHeader from "../utils/SectionHeader";
 import ProjectCard from "../utils/ProjectCard";
 import Fupps from "../../../../public/assets/images/fupps.jpg";
+import JustBuy from "../../../../public/assets/images/just-buy.jpg";
 
 function Projects() {
   return (
@@ -10,7 +11,7 @@ function Projects() {
       <div className="flex flex-col md:flex-row gap-5 lg:gap-8">
         <ProjectCard
           projectDescription="JustBuy is an e-commerce platform designed to connect local vendors with nearby customers, facilitating the discovery and access to locally produced goods and services."
-          projectIMG={Fupps}
+          projectIMG={JustBuy}
           projectTitle="JustBuy"
           url="/just-buy"
         />
