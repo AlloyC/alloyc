@@ -3,6 +3,7 @@ import SectionHeader from "../utils/SectionHeader";
 import ProjectCard from "../utils/ProjectCard";
 import Fupps from "../../../../public/assets/images/fupps.jpg";
 import JustBuy from "../../../../public/assets/images/just-buy.jpg";
+import Music from "../../../../public/assets/images/music.jpg";
 
 function Projects() {
   return (
@@ -22,10 +23,10 @@ function Projects() {
           url="/fupps"
         />
         <ProjectCard
-          projectDescription="Lorem ipsum dolor sit amet nisi, amet aliquam delectus accusantium eaque consectetur officia minus aperiam deserunt repudiandae pariatur fugiat."
-          projectIMG={Fupps}
-          projectTitle="Fupps"
-          url="/fupps"
+          projectDescription="The app features essential playback options like shuffle, repeat, skip, and rewind, offering users seamless control over their listening sessions."
+          projectIMG={Music}
+          projectTitle="Music web app"
+          url="/music-web-app"
         />
       </div>
     </section>

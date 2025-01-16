@@ -6,6 +6,7 @@ import React, { useEffect, useState } from "react";
 import ProjectCard from "../components/utils/ProjectCard";
 import JustBuy from "../../../public/assets/images/just-buy.jpg";
 import Fupps from "../../../public/assets/images/fupps.jpg";
+import Music from "../../../public/assets/images/music.jpg";
 import SectionHeader from "../components/utils/SectionHeader";
 
 interface LearnMoreData {
@@ -37,6 +38,8 @@ function LearnMorePage() {
         setCurrentTab("/just-buy");
       } else if (url === "/fupps") {
         setCurrentTab("/fupps");
+      } else if (url === "/music-web-app") {
+        setCurrentTab("/music-web-app");
       }
       try {
         const response = await fetch(`/api${url}`);
@@ -353,7 +356,7 @@ function LearnMorePage() {
         <div className="flex justify-center mb-10">
         <SectionHeader text="Other projects" />
           </div>
-        <div className="flex flex-col md:flex-row justify-center gap-5 lg:gap-8">
+        <div className="flex flex-col items-center md:flex-row justify-center gap-5 lg:gap-8">
           {!currentTab.includes("/just-buy") && (
             <ProjectCard
               projectDescription="JustBuy is an e-commerce platform designed to connect local vendors with nearby customers, facilitating the discovery and access to locally produced goods and services."
@@ -370,12 +373,12 @@ function LearnMorePage() {
               url="/fupps"
             />
           )}
-          {!currentTab.includes("/fupps2") && (
+          {!currentTab.includes("/music-web-app") && (
             <ProjectCard
-              projectDescription="Lorem ipsum dolor sit amet nisi, amet aliquam delectus accusantium eaque consectetur officia minus aperiam deserunt repudiandae pariatur fugiat."
-              projectIMG={Fupps}
-              projectTitle="Fupps"
-              url="/fupps"
+              projectDescription="The app features essential playback options like shuffle, repeat, skip, and rewind, offering users seamless control over their listening sessions."
+              projectIMG={Music}
+              projectTitle="Music web app"
+              url="/music-web-app"
             />
           )}
         </div>

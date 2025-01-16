@@ -1,0 +1,65 @@
+{
+    "name": "Music Web App",
+    "title": "Music Web App",
+    "description": "A Journey into Collaboration and Innovation",
+    "overview": "This music web app was such an exciting project to work on! It was a collaborative effort involving a designer, a frontend developer, and myself. The goal was to step out of our comfort zones and build a platform that delivered an exceptional music streaming experience. The app features essential playback options like shuffle, repeat, skip, and rewind, offering users seamless control over their listening sessions.",
+    "links": [
+        {
+            "name": "GitHub link",
+            "url": "https://github.com/AlloyC/music-web-app"
+          },
+      {
+        "name": "View live site",
+        "url": "https://alloyc.github.io/music-web-app/"
+      }
+    ],
+    "technologies": [
+      "Frontend: JavaScript",
+      "styling: CSS"
+    ],
+    "features": [
+      "Music Playback Controls: Intuitive options for shuffle, repeat, skip, and rewind.",
+      "API Integration: A music API powers the app, dynamically fetching and streaming tracks.",
+      "Collaboration: A cross-disciplinary effort that blended design, frontend, and JavaScript development."
+    ],
+    "Role": {
+      "title": "Frontend Developer",
+      "responsibilities": [
+        "I handled the JavaScript logic that brought the music API to life. This included integrating API functionality to manage track playback and ensuring smooth user interactions. Debugging and refining this logic was a big part of my contribution, and it was thrilling to see the system work as intended."
+      ]
+    },
+    "challenge": [
+      "Learning to work with the music API was definitely a challenge! It required a lot of research to understand its capabilities and limitations. After plenty of trial and error, I found efficient ways to implement the API while ensuring a seamless user experience. Collaborating with the team also taught me how to integrate feedback and adapt quickly."
+    ],
+    "solution": [
+      "To overcome these challenges, I dedicated time to learning and mastering Figma, which helped me create visually appealing and user-friendly designs. I also spent time understanding Firebase's documentation and tutorials to implement a secure and scalable backend. For the Context API, I followed official documentation and online resources to grasp its concepts and apply them effectively in the project."
+    ],
+    "keyLearnings": [
+      "Got the hang of working with a music API to fetch and manage audio tracks dynamically.",
+      "Picked up confidence using Git commands for version control, especially while collaborating with a team.",
+      "Sharpened my problem-solving skills by debugging tricky API issues and fine-tuning the playback functionality."
+    ],
+    "outcome": [
+      "The app was launched and shared on Twitter (now X), where we received positive feedback from users who appreciated the functionality and design. This project wasn’t just about building a music web app—it was a huge learning experience that strengthened my technical and collaborative skills."
+    ],
+    "reflection": "Looking back, this project was a significant step forward for me. It wasn’t just about building a music web app—it was about stepping out of my comfort zone and growing both technically and collaboratively. Working with a music API was a challenge, but figuring it out piece by piece gave me a real sense of accomplishment. The collaborative aspect was equally rewarding. Using Git for teamwork taught me the importance of version control and communication. It felt great seeing how all the pieces we worked on came together so smoothly. This project reminded me that every challenge is an opportunity to learn and improve.",
+    "images": [
+      {
+        "src": "/assets/images/music.jpg",
+        "alt": "Music Home Page"
+      },
+      {
+        "src": "/assets/images/mobile-music-section.jpg",
+        "alt": "music mobile view"
+      },
+      {
+        "src": "/assets/images/mobile-music.jpg",
+        "alt": "music mobile view"
+      },
+      {
+        "src": "/assets/images/music section.jpg",
+        "alt": "music section Page"
+      }
+    ]
+  }
+  

@@ -1,6 +1,7 @@
 import { NextResponse, type NextRequest } from "next/server";
 import JustBuy from "../public/assets/json/justBuy.json";
 import Fupps from "../public/assets/json/fupps.json";
+import Music from "../public/assets/json/music.json";
 
 export async function middleware(req: NextRequest) {
 //   const fetchData = async (endpoint: string) => {
@@ -24,6 +25,8 @@ export async function middleware(req: NextRequest) {
   } else if (req.nextUrl.pathname === "/api/just-buy") {
     // const data = await fetchData("justbuy.json");
     return NextResponse.json(JustBuy);
+  } else if (req.nextUrl.pathname === "/api/music-web-app") {
+    return NextResponse.json(Music);
   }
 
   return NextResponse.next();

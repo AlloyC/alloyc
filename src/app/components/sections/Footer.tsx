@@ -39,7 +39,7 @@ function Footer() {
             <li>
               <Link
                 className="hover:scale-105 hover:font-medium"
-                href={"#about-me"}
+                href={"/#about-me"}
               >
                 About me
               </Link>
@@ -64,7 +64,7 @@ function Footer() {
             <li>
               <Link
                 className="hover:scale-105 hover:font-medium"
-                href={"#projects"}
+                href={"/#projects"}
               >
                 Projects
               </Link>
@@ -72,7 +72,7 @@ function Footer() {
             <li>
               <Link
                 className="hover:scale-105 hover:font-medium"
-                href={"#skills"}
+                href={"/#skills"}
               >
                 Skills
               </Link>
