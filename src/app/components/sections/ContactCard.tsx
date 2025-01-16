@@ -254,7 +254,7 @@ function ContactCard() {
     const option = e.target as HTMLButtonElement;
     const value = option.dataset.value;
     setCode(value || "NG");
-    console.log("value", value);
+    // console.log("value", value);
     if (value) {
       phoneCode = countries.find(
         (country) => country.code.toLowerCase() === value.toLowerCase()
@@ -275,7 +275,7 @@ function ContactCard() {
       (country) => country.phoneCode === value
     )?.phoneCode;
 
-    console.log(phoneCode);
+    // console.log(phoneCode);
     if (phoneCode) {
       setNumber(phoneCode);
       setCode(
@@ -295,7 +295,8 @@ function ContactCard() {
   return (
     <div className="flex flex-col gap-4 md:gap-0 md:flex-row ">
       <form
-        action=""
+          action="https://formspree.io/f/mgejgnbd"
+          method="POST"
         className="w-80 p-5 relative order-2 md:order-1 md:border-r-[1px] border-2 rounded-lg md:rounded-r-none border-gray"
       >
         <h3 className="mb-5 font-medium text-lg">Get In Touch</h3>
@@ -327,7 +328,7 @@ function ContactCard() {
             />
           </div>
           <div className="pt-5">
-            <div className={`absolute rounded-md border border-gray top-[17rem] transition duration-300 ${showFlags ? "opacity-1 z-50":"opacity-0 z-0"} h-60 `}>
+            <div className={`absolute rounded-md border border-gray top-[17rem] transition duration-300 ${showFlags ? "opacity-1 z-50":"opacity-0 -z-50"} h-60 `}>
             <ul
               id="country"
               className="py-2 px-3 dark:bg-dark-theme  w-min placeholder:italic placeholder:text-sm flex flex-col overflow-y-auto gap-2 bg-light-theme scrollbar"
@@ -380,9 +381,10 @@ function ContactCard() {
             />
           </div>
           <div className="flex px-3 pt-3 pb-5">
-            <button className="w-full bg-dark-blue dark:bg-light-blue shadow-md font-medium text-light-gray py-2 rounded-md">
+            <input type="submit" className="w-full bg-dark-blue dark:bg-light-blue shadow-md font-medium text-light-gray py-2 rounded-md" value={"Send"}/>
+            {/* <button className="w-full bg-dark-blue dark:bg-light-blue shadow-md font-medium text-light-gray py-2 rounded-md">
               Send
-            </button>
+            </button> */}
           </div>
         </div>
       </form>
