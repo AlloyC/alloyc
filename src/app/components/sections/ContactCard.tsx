@@ -254,7 +254,6 @@ function ContactCard() {
     const option = e.target as HTMLButtonElement;
     const value = option.dataset.value;
     setCode(value || "NG");
-    // console.log("value", value);
     if (value) {
       phoneCode = countries.find(
         (country) => country.code.toLowerCase() === value.toLowerCase()
@@ -275,15 +274,12 @@ function ContactCard() {
       (country) => country.phoneCode === value
     )?.phoneCode;
 
-    // console.log(phoneCode);
     if (phoneCode) {
       setNumber(phoneCode);
       setCode(
         countries.find((country) => country.phoneCode === value)?.code || "NG"
       );
     }
-    // const phoneCode =
-    //   countries.find((country) => country.code === code)?.phoneCode || "+234";
 
     setPhoneNumber(
       value.includes("+") ? e.target.value : number + e.target.value
