@@ -41,7 +41,7 @@ function ThemeContext({
 
   useEffect(() => {
     const savedMode = document.cookie.split("=")[1] as Theme;
-    console.log(savedMode);
+    // console.log(savedMode);
 
     setTheme(savedMode || "system");
     setMounted(true);
