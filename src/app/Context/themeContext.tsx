@@ -36,12 +36,10 @@ function ThemeContext({
       document.cookie = "theme = light; secure";
       setTheme("light");
     }
-    // setMode((prev) => (prev === "light" ? "dark" : "light"));
   };
 
   useEffect(() => {
     const savedMode = document.cookie.split("=")[1] as Theme;
-    // console.log(savedMode);
 
     setTheme(savedMode || "system");
     setMounted(true);
