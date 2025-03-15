@@ -9,7 +9,7 @@ function AboutMe() {
       </div>
       <div className="flex flex-col md:flex-row md:gap-10 lg:gap-5 gap-2 leading-7 md:px-4 text-pretty md:text-balance justify-center max-w-screen-[1000px]">
         <p className="md:w-6/12 lg:w-full">
-          Hi, I’m John Okeoghene, a self-taught{" "}
+          Hi, I&apos;m John Okeoghene, a self-taught{" "}
           <span className="text-dark-blue dark:text-light-blue-DM">
             front-end developer
           </span>{" "}
