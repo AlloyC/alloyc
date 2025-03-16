@@ -4,6 +4,7 @@ import Fupps from "../public/assets/json/fupps.json";
 import Music from "../public/assets/json/music.json";
 
 export async function middleware(req: NextRequest) {
+  // This didn't work 
 //   const fetchData = async (endpoint: string) => {
 //     console.log(
 //       new URL(`/assets/json/${endpoint}`, req.nextUrl.origin).toString()
