@@ -5,6 +5,7 @@ import Music from "../public/assets/json/music.json";
 
 export async function middleware(req: NextRequest) {
   // This didn't work 
+  // this isa divine forcing me to commit
 //   const fetchData = async (endpoint: string) => {
 //     console.log(
 //       new URL(`/assets/json/${endpoint}`, req.nextUrl.origin).toString()
