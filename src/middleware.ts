@@ -4,8 +4,9 @@ import Fupps from "../public/assets/json/fupps.json";
 import Music from "../public/assets/json/music.json";
 
 export async function middleware(req: NextRequest) {
-  // This didn't work 
+  // This didn't work
   // TODOs alot of reading no watching movie tomorrow no matter how bored I get
+  // I did research on arduino and also learnt about FETs
 //   const fetchData = async (endpoint: string) => {
 //     console.log(
 //       new URL(`/assets/json/${endpoint}`, req.nextUrl.origin).toString()
