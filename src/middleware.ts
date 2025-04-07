@@ -9,6 +9,7 @@ export async function middleware(req: NextRequest) {
   // I did research on arduino and also learnt about FETs
   // All night reading made my day useless
   // Sunday I learnt more on mosfet enhancement mode and studied for test
+  // wrote a bad test read abit with Divine
 //   const fetchData = async (endpoint: string) => {
 //     console.log(
 //       new URL(`/assets/json/${endpoint}`, req.nextUrl.origin).toString()
