@@ -10,6 +10,8 @@ export async function middleware(req: NextRequest) {
   // All night reading made my day useless
   // Sunday I learnt more on mosfet enhancement mode and studied for test
   // wrote a bad test read abit with Divine
+  // I don't kniw why i don't feel like reading today even though  I know the consequences of not reading. I will try to read alit before I sleep. 
+  // I need a risk-reward system 
 //   const fetchData = async (endpoint: string) => {
 //     console.log(
 //       new URL(`/assets/json/${endpoint}`, req.nextUrl.origin).toString()
