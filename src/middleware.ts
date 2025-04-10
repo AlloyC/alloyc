@@ -13,6 +13,10 @@ export async function middleware(req: NextRequest) {
   // I don't kniw why i don't feel like reading today even though  I know the consequences of not reading. I will try to read alit before I sleep. 
   // I need a risk-reward system 
   // I created a routine that I plan to follow starting tomorrow
+  // I followed my routine to a great extent today. although I swapped some hours routine but all in all. I made progress. 
+  // What worked out was most of my morning routines. I had trouble assimilating in the morning though but later in the afternoon I started to assimilate better. I don't know for sure if my body had not fully woken up or I just not a early morning reader. I would try it out again tomorrow to see if I will assimilate better than I did today.
+  // My breakfast was dependent on Raphaels room which was on in alignment with my schedule so I ended up taking something else for breakfast. I think I will stick to taking just bread and tea for breakfast so I don't have to depend on them. 
+  // Once I go downstairs I usually down't want to comeback to being focused so I should have a timer when I go downstairs to trigger me back upstair. 
 //   const fetchData = async (endpoint: string) => {
 //     console.log(
 //       new URL(`/assets/json/${endpoint}`, req.nextUrl.origin).toString()
