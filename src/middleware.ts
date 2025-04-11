@@ -16,7 +16,10 @@ export async function middleware(req: NextRequest) {
   // I followed my routine to a great extent today. although I swapped some hours routine but all in all. I made progress. 
   // What worked out was most of my morning routines. I had trouble assimilating in the morning though but later in the afternoon I started to assimilate better. I don't know for sure if my body had not fully woken up or I just not a early morning reader. I would try it out again tomorrow to see if I will assimilate better than I did today.
   // My breakfast was dependent on Raphaels room which was on in alignment with my schedule so I ended up taking something else for breakfast. I think I will stick to taking just bread and tea for breakfast so I don't have to depend on them. 
-  // Once I go downstairs I usually down't want to comeback to being focused so I should have a timer when I go downstairs to trigger me back upstair. 
+  // Once I go downstairs I usually down't want to comeback to being focused so I should have a timer when I go downstairs to trigger me back upstair.
+  // Hi future me, so today is day 2 of implementing the new routine. here is what I learnt, first that I am human and not a robot. I woke up turn off my alarm and slept back for an extra 48 mins before starting my day. this inturn led to a shift in my schedule timing. Trying to make up fot the lost time led to shifting in the order of my schedule. About reading in the mmorning. It was totally the course as I was able to read and understand today although i started reading around 7:40+am, so I cant say It is totally the course since I started with the course too. So maybe my body had not fully woken up then. 
+  // I limited the time I spent downstair and my productivity skyrocketed. As The mountain is you said, to change you will probabily loss relationship. 
+  // My lesson today is based on focus. I was more focused today when I had my day planned out. with limited time with friends and social media.  
 //   const fetchData = async (endpoint: string) => {
 //     console.log(
 //       new URL(`/assets/json/${endpoint}`, req.nextUrl.origin).toString()
