@@ -22,6 +22,7 @@ export async function middleware(req: NextRequest) {
   // My lesson today is based on focus. I was more focused today when I had my day planned out. with limited time with friends and social media.
   // Today I achieved nothing my day was stolen by my mood and I fear staying in my room. I think I am starting to associate my room with seriousness.
   // I don't know how to get out of unseriousness. I don't know why I feel the way I feel sometimes
+  // I got nothing today
   //   const fetchData = async (endpoint: string) => {
   //     console.log(
   //       new URL(`/assets/json/${endpoint}`, req.nextUrl.origin).toString()
