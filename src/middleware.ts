@@ -23,6 +23,7 @@ export async function middleware(req: NextRequest) {
   // Today I achieved nothing my day was stolen by my mood and I fear staying in my room. I think I am starting to associate my room with seriousness.
   // I don't know how to get out of unseriousness. I don't know why I feel the way I feel sometimes
   // I got nothing today
+  // I learnt abit about microcontollers and also researchd on career path for eee. I'm still not super clear how to go about it but I think I am a bit clearer than the last time so. I will still conntinue my research until I am clear it is the right path for me.
   //   const fetchData = async (endpoint: string) => {
   //     console.log(
   //       new URL(`/assets/json/${endpoint}`, req.nextUrl.origin).toString()
