@@ -24,6 +24,8 @@ export async function middleware(req: NextRequest) {
   // I don't know how to get out of unseriousness. I don't know why I feel the way I feel sometimes
   // I got nothing today
   // I learnt abit about microcontollers and also researchd on career path for eee. I'm still not super clear how to go about it but I think I am a bit clearer than the last time so. I will still conntinue my research until I am clear it is the right path for me.
+  // I have resolved into folowing my path into electrinics and not waste any energy learning web development. Also I am planning on locating an e-waste location to get elcetronics whose working part can be desoldered and saved for future prototyping or learning. 
+  // I will definitely resume my routine tomorrow 
   //   const fetchData = async (endpoint: string) => {
   //     console.log(
   //       new URL(`/assets/json/${endpoint}`, req.nextUrl.origin).toString()
