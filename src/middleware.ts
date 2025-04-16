@@ -25,7 +25,8 @@ export async function middleware(req: NextRequest) {
   // I got nothing today
   // I learnt abit about microcontollers and also researchd on career path for eee. I'm still not super clear how to go about it but I think I am a bit clearer than the last time so. I will still conntinue my research until I am clear it is the right path for me.
   // I have resolved into folowing my path into electrinics and not waste any energy learning web development. Also I am planning on locating an e-waste location to get elcetronics whose working part can be desoldered and saved for future prototyping or learning. 
-  // I will definitely resume my routine tomorrow 
+  // I will definitely resume my routine tomorrow
+  // Today, I followed my routine as a guide not a strict time rule. But I read more on the personal side than on the school side after I got exhaused to learning. All in all today was a success. What I have to change in my time table is the free time to allow for interactivity with my friend as they are priority to me also.  
   //   const fetchData = async (endpoint: string) => {
   //     console.log(
   //       new URL(`/assets/json/${endpoint}`, req.nextUrl.origin).toString()
