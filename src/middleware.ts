@@ -24,10 +24,11 @@ export async function middleware(req: NextRequest) {
   // I don't know how to get out of unseriousness. I don't know why I feel the way I feel sometimes
   // I got nothing today
   // I learnt abit about microcontollers and also researchd on career path for eee. I'm still not super clear how to go about it but I think I am a bit clearer than the last time so. I will still conntinue my research until I am clear it is the right path for me.
-  // I have resolved into folowing my path into electrinics and not waste any energy learning web development. Also I am planning on locating an e-waste location to get elcetronics whose working part can be desoldered and saved for future prototyping or learning. 
+  // I have resolved into folowing my path into electrinics and not waste any energy learning web development. Also I am planning on locating an e-waste location to get elcetronics whose working part can be desoldered and saved for future prototyping or learning.
   // I will definitely resume my routine tomorrow
-  // Today, I followed my routine as a guide not a strict time rule. But I read more on the personal side than on the school side after I got exhaused to learning. All in all today was a success. What I have to change in my time table is the free time to allow for interactivity with my friend as they are priority to me also. 
-  // Unproductive day. why? I don't know, the longer I stay downstairs the more unproductive I am.  
+  // Today, I followed my routine as a guide not a strict time rule. But I read more on the personal side than on the school side after I got exhaused to learning. All in all today was a success. What I have to change in my time table is the free time to allow for interactivity with my friend as they are priority to me also.
+  // Unproductive day. why? I don't know, the longer I stay downstairs the more unproductive I am.
+  // Productive day. measuement? I advoided procastinating to a large extent. I read to a reasonable extent both personal spiritual and academical. Things that helped me is inaccess to data and also staying in my room also. Also the reduced amount of steps before a reading session helped me focus my energy reading than actually setting up and mde it easier to want to read.
   //   const fetchData = async (endpoint: string) => {
   //     console.log(
   //       new URL(`/assets/json/${endpoint}`, req.nextUrl.origin).toString()
