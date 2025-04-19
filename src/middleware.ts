@@ -29,6 +29,7 @@ export async function middleware(req: NextRequest) {
   // Today, I followed my routine as a guide not a strict time rule. But I read more on the personal side than on the school side after I got exhaused to learning. All in all today was a success. What I have to change in my time table is the free time to allow for interactivity with my friend as they are priority to me also.
   // Unproductive day. why? I don't know, the longer I stay downstairs the more unproductive I am.
   // Productive day. measuement? I advoided procastinating to a large extent. I read to a reasonable extent both personal spiritual and academical. Things that helped me is inaccess to data and also staying in my room also. Also the reduced amount of steps before a reading session helped me focus my energy reading than actually setting up and mde it easier to want to read.
+  // I don't know what to say. Honestly, I don't know
   //   const fetchData = async (endpoint: string) => {
   //     console.log(
   //       new URL(`/assets/json/${endpoint}`, req.nextUrl.origin).toString()
