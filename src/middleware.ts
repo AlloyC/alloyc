@@ -31,6 +31,7 @@ export async function middleware(req: NextRequest) {
   // Productive day. measuement? I advoided procastinating to a large extent. I read to a reasonable extent both personal spiritual and academical. Things that helped me is inaccess to data and also staying in my room also. Also the reduced amount of steps before a reading session helped me focus my energy reading than actually setting up and mde it easier to want to read.
   // I don't know what to say. Honestly, I don't know
   // Happy easter !!!
+  // Another unproductive day
   //   const fetchData = async (endpoint: string) => {
   //     console.log(
   //       new URL(`/assets/json/${endpoint}`, req.nextUrl.origin).toString()
