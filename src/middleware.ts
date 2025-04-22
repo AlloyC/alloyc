@@ -32,6 +32,7 @@ export async function middleware(req: NextRequest) {
   // I don't know what to say. Honestly, I don't know
   // Happy easter !!!
   // Another unproductive day
+  // Another unproductive day
   //   const fetchData = async (endpoint: string) => {
   //     console.log(
   //       new URL(`/assets/json/${endpoint}`, req.nextUrl.origin).toString()
