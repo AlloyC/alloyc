@@ -33,6 +33,7 @@ export async function middleware(req: NextRequest) {
   // Happy easter !!!
   // Another unproductive day
   // Another unproductive day
+  // Broke the cycle. Today I read almost all day. As much as I claim to be just want to fall off the grid I still love people still love to interact with people and I don't know how to interact with people. Las las we go dey alright
   //   const fetchData = async (endpoint: string) => {
   //     console.log(
   //       new URL(`/assets/json/${endpoint}`, req.nextUrl.origin).toString()
