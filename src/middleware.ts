@@ -34,6 +34,7 @@ export async function middleware(req: NextRequest) {
   // Another unproductive day
   // Another unproductive day
   // Broke the cycle. Today I read almost all day. As much as I claim to be just want to fall off the grid I still love people still love to interact with people and I don't know how to interact with people. Las las we go dey alright
+  // Another win for me today. I woke up early, read and worked out. I also didn't spend money today one is because I don't really have but the other is because I am trying to caution my spending habit and recover from my last detrimental spending habit. I didn't come online much too today which one fact that is responsible for my productivity today. The only part I haven't really gotten contol over is knowing how to tell my body to stand up and go to my room to be productive. Anyways one step, one punch, one round at a time
   //   const fetchData = async (endpoint: string) => {
   //     console.log(
   //       new URL(`/assets/json/${endpoint}`, req.nextUrl.origin).toString()
