@@ -40,6 +40,8 @@ export async function middleware(req: NextRequest) {
   // Day 117, I lost if today feeling jealosy, rage, frustrated, useless and happy. Up to this moment I feel like I am emotionally attached to my ex which for me isn't right or I don't know. I shouldn't be focusing on her or emotions when I have exams coming up I shouldn't be feeling this way at all. but I guess I am. I was close to telling her I love her maybe because I am scared to lose her. I am scared all this feeling will make me do this I woukd regret I wish I could go for a walk now but it is too late for that. I know tommorow will be better most definitely. Alright good night
   // I spent the whole day fixing my study. I didn't read my bible but I ended talking out my feelings keeping up with the ew friends I have. took my nap now I wanted to sleep but someones generator is pumping smoke into my room.
   // No words to say.....
+  // I read productively today. breaking my reading into small chuncks and ignoring the volume of knowlege left unconcumed. Eventually I finished it and I am glad... 
+  // I want to watch movie as a reward for my determination before I sleep 
   //   const fetchData = async (endpoint: string) => {
   //     console.log(
   //       new URL(`/assets/json/${endpoint}`, req.nextUrl.origin).toString()
