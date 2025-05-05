@@ -45,6 +45,7 @@ export async function middleware(req: NextRequest) {
   // I read abit I think 2 hrs but I have decided to stop the jotting so I can cover more faster.
   // I read abit I maybe less than 2 hrs but I finished the pdf I started so that count or something.
   // Today hmmm. Lets see I was almost close to not reading I watched movie and slept. I want to read now till I feel slepy but tomorrow we go harder hopefully...
+  // I read more than yesterday shaa...
   //   const fetchData = async (endpoint: string) => {
   //     console.log(
   //       new URL(`/assets/json/${endpoint}`, req.nextUrl.origin).toString()
