@@ -46,6 +46,7 @@ export async function middleware(req: NextRequest) {
   // I read abit I maybe less than 2 hrs but I finished the pdf I started so that count or something.
   // Today hmmm. Lets see I was almost close to not reading I watched movie and slept. I want to read now till I feel slepy but tomorrow we go harder hopefully...
   // I read more than yesterday shaa...
+  // I read far more lesser than I did yesterday. Saw my supervisor and got into thinking. Why did I allow eban manage the project afterall, it was my idea. No one understands the project more than me. I would I be remembered for it. I starts from small things like this. I don't know what to do yet though. Probably till after exam sha dont't let me concern myself with it yet.
   //   const fetchData = async (endpoint: string) => {
   //     console.log(
   //       new URL(`/assets/json/${endpoint}`, req.nextUrl.origin).toString()
