@@ -47,7 +47,8 @@ export async function middleware(req: NextRequest) {
   // Today hmmm. Lets see I was almost close to not reading I watched movie and slept. I want to read now till I feel slepy but tomorrow we go harder hopefully...
   // I read more than yesterday shaa...
   // I read far more lesser than I did yesterday. Saw my supervisor and got into thinking. Why did I allow eban manage the project afterall, it was my idea. No one understands the project more than me. I would I be remembered for it. I starts from small things like this. I don't know what to do yet though. Probably till after exam sha dont't let me concern myself with it yet.
-  // I am tired and scared honestly. But I'm still not putting in enough work to overcome this fear. I read today though finished the remaining part of the pdf but I have to start the next pdf and revise them all if i want to be confident enough
+  // I am tired and scared honestly. But I'm still not putting in enough work to overcome this fear. I read today though finished the remaining part of the pdf but I have to start the next pdf and revise them all if i want to be confident enough.
+  // I dont know what I am doing. I read yes, but tega what am I doing? Mystery
   //   const fetchData = async (endpoint: string) => {
   //     console.log(
   //       new URL(`/assets/json/${endpoint}`, req.nextUrl.origin).toString()
