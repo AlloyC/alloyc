@@ -51,6 +51,7 @@ export async function middleware(req: NextRequest) {
   // I dont know what I am doing. I read yes, but tega what am I doing? Mystery
   // I'm done with the movie i was watching which means one less distraction. Just maybe now I can focus my full energy into preparing for exam. I thinkn I want to juog tomorrow. Take a hole of my life again. I hope God forgives me for my sin of unforgiveness.
   // I and tega are messing with emotions we shouldnt be messing with at this time. Oh and I read abit. I've gotten myself into something i dont know how to get out of smiles....
+  // Tomorrow is exam day. I  hope it goes well
   //   const fetchData = async (endpoint: string) => {
   //     console.log(
   //       new URL(`/assets/json/${endpoint}`, req.nextUrl.origin).toString()
