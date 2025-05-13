@@ -53,6 +53,7 @@ export async function middleware(req: NextRequest) {
   // I and tega are messing with emotions we shouldnt be messing with at this time. Oh and I read abit. I've gotten myself into something i dont know how to get out of smiles....
   // Tomorrow is exam day. I  hope it goes well
   // Exam went well and I spent alot of money too, unplanned expenses is crazy
+  // I didn't read I am thinking of doing night class but I don't know if I will be able too
   //   const fetchData = async (endpoint: string) => {
   //     console.log(
   //       new URL(`/assets/json/${endpoint}`, req.nextUrl.origin).toString()
