@@ -54,6 +54,7 @@ export async function middleware(req: NextRequest) {
   // Tomorrow is exam day. I  hope it goes well
   // Exam went well and I spent alot of money too, unplanned expenses is crazy
   // I didn't read I am thinking of doing night class but I don't know if I will be able too
+  // I didn't read well and I still failed God nawa.
   //   const fetchData = async (endpoint: string) => {
   //     console.log(
   //       new URL(`/assets/json/${endpoint}`, req.nextUrl.origin).toString()
