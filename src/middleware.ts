@@ -56,6 +56,7 @@ export async function middleware(req: NextRequest) {
   // I didn't read I am thinking of doing night class but I don't know if I will be able too
   // I didn't read well and I still failed God nawa.
   // I didn't read well.
+  // I read well, now I am feeling high on sleep after night class.
   //   const fetchData = async (endpoint: string) => {
   //     console.log(
   //       new URL(`/assets/json/${endpoint}`, req.nextUrl.origin).toString()
