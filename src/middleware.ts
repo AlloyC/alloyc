@@ -62,7 +62,7 @@ export async function middleware(req: NextRequest) {
   // I read well,
   // I read well,
   // I barely read jareh feels like whats the point when this brain don't want to remember
-
+  //  Going back to God because I don't have another option. Plus I am reading too
   //   const fetchData = async (endpoint: string) => {
   //     console.log(
   //       new URL(`/assets/json/${endpoint}`, req.nextUrl.origin).toString()
