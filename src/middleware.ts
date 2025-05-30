@@ -65,7 +65,8 @@ export async function middleware(req: NextRequest) {
   //  Going back to God because I don't have another option. Plus I am reading too
   // I am reading my last course
   // I have bought my laptop charger and downloaded a circuit design app.
-  // I will learn an experiment with it tomorrow
+  // I will learn an experiment with it tomorrow..
+  // A reset is coming in tomorrow
   //   const fetchData = async (endpoint: string) => {
   //     console.log(
   //       new URL(`/assets/json/${endpoint}`, req.nextUrl.origin).toString()
