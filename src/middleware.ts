@@ -67,6 +67,7 @@ export async function middleware(req: NextRequest) {
   // I have bought my laptop charger and downloaded a circuit design app.
   // I will learn an experiment with it tomorrow..
   // A reset is coming in tomorrow
+  // Slowly geting to together
   //   const fetchData = async (endpoint: string) => {
   //     console.log(
   //       new URL(`/assets/json/${endpoint}`, req.nextUrl.origin).toString()
