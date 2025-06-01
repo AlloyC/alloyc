@@ -68,6 +68,7 @@ export async function middleware(req: NextRequest) {
   // I will learn an experiment with it tomorrow..
   // A reset is coming in tomorrow
   // Slowly geting to together
+  // Happy new month!!
   //   const fetchData = async (endpoint: string) => {
   //     console.log(
   //       new URL(`/assets/json/${endpoint}`, req.nextUrl.origin).toString()
