@@ -71,6 +71,7 @@ export async function middleware(req: NextRequest) {
   // Happy new month!!
   // I read a personal book ad stuck till the page I said I was going to end. I doing that I realised it took me a while to reach this page, so in other to keep consistency based on what I have learnt today, I decided to separate personal study days and electronic study days instead of doing it everyday. That way i can really focus on one task at a time instead of just dong a count down or something.
   // I am excited. Yes I wrote it. I was able to get the components I wanted thanks ro the help of christopher my good friend. I fixed my lamp fixed 2 powerbanks and about to start the journey of building a solar powered powerbank. I will also start working with ICs which is exciting for me so help me God in this little journey of mine.
+  // I did what I was supposed to do but not enough time to complete it... 
   //   const fetchData = async (endpoint: string) => {
   //     console.log(
   //       new URL(`/assets/json/${endpoint}`, req.nextUrl.origin).toString()
