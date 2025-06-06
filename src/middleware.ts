@@ -73,6 +73,7 @@ export async function middleware(req: NextRequest) {
   // I am excited. Yes I wrote it. I was able to get the components I wanted thanks ro the help of christopher my good friend. I fixed my lamp fixed 2 powerbanks and about to start the journey of building a solar powered powerbank. I will also start working with ICs which is exciting for me so help me God in this little journey of mine.
   // I did what I was supposed to do but not enough time to complete it...
   // Project propsal defense today was successful, I read about 10 pages of personal development book and fixed my other lamp. All in all today was a success
+  // Why can't all day be successful. It's just like being productive drains me and then the next day becomes unproductive...
   //   const fetchData = async (endpoint: string) => {
   //     console.log(
   //       new URL(`/assets/json/${endpoint}`, req.nextUrl.origin).toString()
