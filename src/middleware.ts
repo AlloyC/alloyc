@@ -74,6 +74,7 @@ export async function middleware(req: NextRequest) {
   // I did what I was supposed to do but not enough time to complete it...
   // Project propsal defense today was successful, I read about 10 pages of personal development book and fixed my other lamp. All in all today was a success
   // Why can't all day be successful. It's just like being productive drains me and then the next day becomes unproductive...
+  // Somewhat productive I guess
   //   const fetchData = async (endpoint: string) => {
   //     console.log(
   //       new URL(`/assets/json/${endpoint}`, req.nextUrl.origin).toString()
