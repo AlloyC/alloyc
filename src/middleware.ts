@@ -75,6 +75,7 @@ export async function middleware(req: NextRequest) {
   // Project propsal defense today was successful, I read about 10 pages of personal development book and fixed my other lamp. All in all today was a success
   // Why can't all day be successful. It's just like being productive drains me and then the next day becomes unproductive...
   // Somewhat productive I guess
+  // I dont't know if I am adcting right ir not. I don't know if I should continue keeping a relationship with tega or not. But studied today though, I read grith book too. Today was a success sha. Glory to God
   //   const fetchData = async (endpoint: string) => {
   //     console.log(
   //       new URL(`/assets/json/${endpoint}`, req.nextUrl.origin).toString()
