@@ -77,6 +77,7 @@ export async function middleware(req: NextRequest) {
   // Somewhat productive I guess
   // I dont't know if I am adcting right ir not. I don't know if I should continue keeping a relationship with tega or not. But studied today though, I read grith book too. Today was a success sha. Glory to God
   // I don't really feel great about her visiting someone else, I guess I could say I am jealous which is an indication that I wanted her to visit me instead but I don't know we are not dating so she not under any obligation to I guess. I have studied both personal and electronics wise.
+  // I did the personal study but not the electonics study today I am so tired and sleepy
   //   const fetchData = async (endpoint: string) => {
   //     console.log(
   //       new URL(`/assets/json/${endpoint}`, req.nextUrl.origin).toString()
