@@ -79,6 +79,7 @@ export async function middleware(req: NextRequest) {
   // I don't really feel great about her visiting someone else, I guess I could say I am jealous which is an indication that I wanted her to visit me instead but I don't know we are not dating so she not under any obligation to I guess. I have studied both personal and electronics wise.
   // I did the personal study but not the electonics study today I am so tired and sleepy
   // Declining productivity
+  // Declining productivity. Thought about my career decision today I still don't have clarity. Am i just lazy to do something with my life or I am just holding on to past passion. I am kinda tired of everything. Sometimes having money is not enough. 
   //   const fetchData = async (endpoint: string) => {
   //     console.log(
   //       new URL(`/assets/json/${endpoint}`, req.nextUrl.origin).toString()
