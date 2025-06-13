@@ -80,6 +80,7 @@ export async function middleware(req: NextRequest) {
   // I did the personal study but not the electonics study today I am so tired and sleepy
   // Declining productivity
   // Declining productivity. Thought about my career decision today I still don't have clarity. Am i just lazy to do something with my life or I am just holding on to past passion. I am kinda tired of everything. Sometimes having money is not enough. 
+  // today hmmm. So today the book I am reading taught me a couple things concerning purpose that I would love to share with my kidss when they grow hope. Purpose is not career. It is not one thing. You just have to enjoy what you do. finding what you enjoy to do daily. Something that you can afford to feel pain for and still want to continue. for mem thta is buildng things, being relevant. It does not matter if it is hardware or software or both as long as I can build something and see it have an impart I thing I will feel fufilled. For now that is what software provides maybe later I would love to incorporate hardware into it. Thank you Jesus. thanks "The mountain is you"
   //   const fetchData = async (endpoint: string) => {
   //     console.log(
   //       new URL(`/assets/json/${endpoint}`, req.nextUrl.origin).toString()
