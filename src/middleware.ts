@@ -83,6 +83,7 @@ export async function middleware(req: NextRequest) {
   // today hmmm. So today the book I am reading taught me a couple things concerning purpose that I would love to share with my kidss when they grow hope. Purpose is not career. It is not one thing. You just have to enjoy what you do. finding what you enjoy to do daily. Something that you can afford to feel pain for and still want to continue. for mem thta is buildng things, being relevant. It does not matter if it is hardware or software or both as long as I can build something and see it have an impart I thing I will feel fufilled. For now that is what software provides maybe later I would love to incorporate hardware into it. Thank you Jesus. thanks "The mountain is you"
   // I finally finished my book. 
   // Nothing to say. It was a quiet day. 
+  // Looks like I was lonely because of I had not spoken to divine I'm not sure cause I also did not have money too so I don't know.
   //   const fetchData = async (endpoint: string) => {
   //     console.log(
   //       new URL(`/assets/json/${endpoint}`, req.nextUrl.origin).toString()
