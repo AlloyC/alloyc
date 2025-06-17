@@ -84,6 +84,7 @@ export async function middleware(req: NextRequest) {
   // I finally finished my book. 
   // Nothing to say. It was a quiet day. 
   // Looks like I was lonely because of I had not spoken to divine I'm not sure cause I also did not have money too so I don't know.
+  // I don't know what to say today sha. sometimes I feel like I don't miss tega sometimes I just feel like I don't need it
   //   const fetchData = async (endpoint: string) => {
   //     console.log(
   //       new URL(`/assets/json/${endpoint}`, req.nextUrl.origin).toString()
