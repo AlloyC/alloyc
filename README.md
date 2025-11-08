@@ -1,4 +1,4 @@
-## Hi there! I'm [Your Name] 👋
+## Hi there! I'm Okeoghene 👋
 
 <img align="right" width="300" src="https://www.pinterest.com/ideas/coding-gif-banner/929630361081/" />
 
