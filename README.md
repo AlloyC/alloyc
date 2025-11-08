@@ -1,4 +1,103 @@
-## Hi there 👋
+## Hi there! I'm [Your Name] 👋
+
+<img align="right" width="300" src="https://www.pinterest.com/ideas/coding-gif-banner/929630361081/" />
+
+I am a **Frontend Engineer** specializing in building high-performance, responsive, and reliable web applications.
+
+My engineering philosophy is built on a "first-principles" approach: I build clean, efficient, and scalable code that solves a *specific* problem.
+
+I am currently on a 7-week sprint, building new, high-value production units and am **actively seeking a full-time frontend role** with a high-impact team.
+
+---
+
+### 1. My Core Toolkit (The Tech Stack)
+
+<table>
+  <tr>
+    <td align="center" width="96">
+      <a href="#-core-stack">
+        <img src="https://skillicons.dev/icons?i=react" width="48" height="48" alt="React" />
+      </a>
+      <br>React
+    </td>
+    <td align="center" width="96">
+      <a href="#-core-stack">
+        <img src="https://skillicons.dev/icons?i=nextjs" width="48" height="48" alt="Next.js" />
+      </a>
+      <br>Next.js
+    </td>
+    <td align="center" width="96">
+      <a href="#-core-stack">
+        <img src="https://skillicons.dev/icons?i=typescript" width="48" height="48" alt="TypeScript" />
+      </a>
+      <br>TypeScript
+    </td>
+    <td align="center" width="96">
+      <a href="#-core-stack">
+        <img src="https://skillicons.dev/icons?i=javascript" width="48" height="48" alt="JavaScript" />
+      </a>
+      <br>JavaScript
+    </td>
+    <td align="center" width="96">
+      <a href="#-core-stack">
+        <img src="https://skillicons.dev/icons?i=tailwind" width="48" height="48" alt="Tailwind CSS" />
+      </a>
+      <br>Tailwind
+    </td>
+    <td align="center" width="96">
+      <a href="#-core-stack">
+        <img src="https://skillicons.dev/icons?i=git" width="48" height="48" alt="Git" />
+      </a>
+      <br>Git
+    </td>
+    <td align="center" width="96">
+      <a href="#-core-stack">
+        <img src="https://skillicons.dev/icons?i=vscode" width="48" height="48" alt="VS Code" />
+      </a>
+      <br>VS Code
+    </td>
+  </tr>
+</table>
+
+---
+
+### 2. My Production Units (Proof of Work)
+
+These are my high-value assets. They are not "tutorials"; they are fully functional applications.
+
+| Project | Key Technologies | Live Demo | Repository |
+| :--- | :--- | :--- | :--- |
+| **1. E-commerces webapp** | React, Javascript, Firebase | [View Live](https://justbuy-ecommerce-webapp.vercel.app/) | [View Code](https://github.com/AlloyC/justbuy-ecommerce-webapp) |
+| **2. Educational webapp** | Next.js, TypeScript, Firebase, Tailwind | [View Live](https://fupps.vercel.app) |
+| **3. Personal Portfolio** | Next.js, TypeScript, Tailwind CSS, Vercel | [View Live](https://alloyc.vercel.app/) |
+
+---
+
+### 3. Current Activity (The Data)
+
+This data is generated automatically and shows my recent commit and contribution history.
+
+<p align="left"> 
+  <img alt="[alloyC]'s GitHub Stats" src="https://github-readme-stats.vercel.app/api?username=alloyc&show_icons=true&theme=radical&hide_border=true&count_private=true" />
+</p>
+
+---
+
+### 4. Connect with Me (The Call to Action)
+
+I am currently available for new opportunities. The best way to reach me is via LinkedIn.
+
+<p align="left">
+  <a href="https://linkedin.com/in/okeoghene-john" target="_blank">
+    <img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white">
+  </a>
+  <a href="https://alloyc.vercel.app/" target="_blank">
+    <img alt="Portfolio" src="https://img.shields.io/badge/Portfolio-333333?style=flat-square&logo=react&logoColor=white">
+  </a>
+  <a href="mailto:[johnokeoghene01@gmail.com]" target="_blank">
+    <img alt="Email" src="https://img.shields.io/badge/Email-D14836?style=flat-square&logo=gmail&logoColor=white">
+  </a>
+</p>
 
 <!--
 **AlloyC/alloyc** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
