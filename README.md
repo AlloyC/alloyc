@@ -1,6 +1,6 @@
 ## Hi there! I'm Okeoghene 👋
 
-<img align="right" width="300" src="https://www.pinterest.com/ideas/coding-gif-banner/929630361081/" />
+<img align="right" width="300" src="https://media.giphy.com/media/z3ZzHIN66C7GW2pA8G/giphy.gif" />
 
 I am a **Frontend Engineer** specializing in building high-performance, responsive, and reliable web applications.
 
