@@ -46,7 +46,7 @@ function NavBar() {
             <a
               download={"Okeoghene_John_Resumé"}
               className="focus:animate-bounce h-9 px-2 outline-none"
-              href={"/assets/pdf/Okeoghene-John-web-developer-resume.pdf"}
+              href={"/assets/pdf/Okeoghene_John_Frontend_Resume.pdf"}
             >
               <li className="font-medium py-1 hover:scale-105">Resumé</li>
             </a>

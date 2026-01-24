@@ -236,14 +236,14 @@ function LearnMorePage() {
           <p className="max-w-[72ch] text-pretty">{data.overview}</p>
           <div className="mt-6 flex gap-20">
             {data.links.map((link) => (
-              <Link
-                key={link.url}
-                className="underline text-purplish-blue dark:text-sea-blue font-medium"
-                href={link.url}
-              >
-                {data.links[0].name}
-              </Link>
-            ))}
+                <Link
+                  key={link.url}
+                  className="underline text-purplish-blue dark:text-sea-blue font-medium"
+                  href={link.url}
+                >
+                  {link.name}
+                </Link>
+              ))}
           </div>
         </section>
         <section className="">
