@@ -119,7 +119,7 @@ function NavBar() {
           </li>
           <li className="hover:font-medium">
             <a
-              href={"/assets/pdf/Okeoghene-John-web-developer-resume.pdf"}
+              href={"/assets/pdf/Okeoghene_John_Frontend_Resume.pdf"}
               download={"Okeoghene_John_Resumé"}
               className="flex gap-2 items-center"
             >
