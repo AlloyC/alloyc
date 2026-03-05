@@ -18,6 +18,9 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
+  verification: {
+    google: "XXpML5r6TFna9gQlzZUVGGnpIA9nLf4uE2IRzMPxeMo",
+  },
   title: "AlloyC",
   description:
     "A portfolio site for john okeoghene, a frontend developer, showcasing his works, about him and contacts",
